@@ -13,7 +13,7 @@ This is a release gate, not a declaration of complete acceptance. Current eviden
 
 ## Content / 内容
 - [ ] 78 identities, Strength VIII / Justice XI. 78 basic historical sections first-pass only; additional meanings, combinations and early plates pending; zero fully audited cards.
-- [ ] 78 generated faces and one SVG back remain candidates, not placeholders or final approvals. Wheel typography pending; Priestess targeted review only; retain all adapted-candidate limitations.
+- [ ] 78 generated faces and one SVG back remain candidates, not placeholders or final approvals. Wheel symbols targeted-review passed with documented adaptation limits; Priestess targeted review only; retain all adapted-candidate limitations.
 - [ ] Historical source locators and Waite/Smith attribution distinct from modern reflection; no invented quotations.
 - [ ] Owner approved MIT code and CC BY 4.0 original prose/icons; preserve valid prior CC0 rights and check distribution history. 78 AI faces and derivatives approved CC BY 4.0 only for actually held licensable rights; no exclusivity/copyright guarantee. Owner separately approved original SVG card back under CC BY 4.0; visual review limits still apply.
 - [ ] Verify image provenance/rights and third-party licenses. Free/noncommercial product intent is not a no-commercial-use license.

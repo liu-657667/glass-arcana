@@ -1,10 +1,16 @@
 {
   "major-6": {
     "status": "adapted_candidate",
-    "noteZh": "天使/二成人/蛇果树/火树/山齐；全着衣，火树12火焰未逐数，非严格复刻。",
-    "noteEn": "Clothed adaptation; twelve flames not individually verified.",
-    "sha256": "6cb83b77e203397868e5653b5ac1c16fa51296f46ebaa62e628572fedd735d8b",
-    "installed": true
+    "noteZh": "恋人12簇火焰通过专项逐数；火簇均匀排列，人物着衣，属于原创改编而非早期图版逐笔复制。其他细节及权利仍待完整核验。",
+    "noteEn": "Targeted count passed: twelve flame clusters. Flames are uniformly arranged and figures clothed; original adaptation, not a stroke-for-stroke early-plate copy. Other details and rights remain incompletely reviewed.",
+    "sha256": "383894c9cdd7601569bb25ee9c8815207ba70e33f718f566107c623db340d708",
+    "installed": true,
+    "deliveryReview": {
+      "scope": "Three count-corrected cards only: PNG, nine WebP derivatives and three JPEG fallbacks; manifest hashes and actual visual comparison",
+      "result": "independent targeted comparison passed",
+      "date": "2026-11-12",
+      "limitation": "Lovers flames are small at 320px; use 640px or larger for counting. Not complete historical plate comparison or legal clearance."
+    }
   },
   "major-7": {
     "status": "core_checked",
@@ -28,11 +34,17 @@
     "installed": true
   },
   "major-10": {
-    "status": "pending_typography",
-    "noteZh": "本轮重新目视：八辐条与外围生物正确；复用已保存底图，不重复生成。轮圈字母与炼金符号待程序化精确排版并重新验收，尚未完成。",
-    "noteEn": "Base artwork only: wheel letters and alchemical symbols still require precise typography and review.",
-    "sha256": "d2f7914b44222384745c433467ba1d75010059d26f4fb5166654c7093650ba2b",
-    "installed": true
+    "status": "adapted_candidate",
+    "noteZh": "TARO方向、四个希伯来字（含yod主笔势）、四炼金符号、八辐和主体通过专项对照。接受为RWS原创改编，非逐笔复制：顶部水星符号上方延伸辐条缺失。整体最终视觉与权利审查仍未完成。",
+    "noteEn": "Targeted comparison passed for TARO orientation, four Hebrew letters including the main yod stroke, four alchemical symbols, eight spokes and main composition. Accepted as an original RWS adaptation, not a stroke-for-stroke copy: the spoke extension above Mercury is missing. Final visual and rights review remain incomplete.",
+    "sha256": "5bbaf3cd1f8d5684633433aac8a7ff23714254b0a162a90ebaf3e15cc4d8d91e",
+    "installed": true,
+    "deliveryReview": {
+      "scope": "Three revised cards only; PNG vs 320/640/1024 WebP and JPEG fallback, plus hashes",
+      "result": "independent targeted comparison passed",
+      "date": "2026-11-12",
+      "limitation": "Two of Wands emblem is small at 320px; use a larger view. Not a whole-deck, full historical or legal clearance."
+    }
   },
   "major-11": {
     "status": "core_checked",
@@ -71,17 +83,29 @@
   },
   "major-17": {
     "status": "adapted_candidate",
-    "noteZh": "1大+7小八角星逐数通过；2水罐/鸟/水陆足齐；着衣改编，陆地5支流未可靠辨清。",
-    "noteEn": "Clothed adaptation; five land streams are not clearly verified.",
-    "sha256": "1b09e7b56024bebc82ffe3d0223fc4198a15cf08bb9f3d264ef3b8297cba208a",
-    "installed": true
+    "noteZh": "星星5条陆地水道通过专项逐数；各水道末端为小圆潭，人物着衣，属于原创改编，不等于早期图版原样。其他细节与权利仍待完整核验。",
+    "noteEn": "Targeted count passed: five land channels, ending in small round pools. Clothed original adaptation, not an exact early-plate reproduction. Other details and rights remain incompletely reviewed.",
+    "sha256": "305e485d0e73e1573892db1c7296a9e9a58fd371b864aea066d85e71363d6d5b",
+    "installed": true,
+    "deliveryReview": {
+      "scope": "Three count-corrected cards only: PNG, nine WebP derivatives and three JPEG fallbacks; manifest hashes and actual visual comparison",
+      "result": "independent targeted comparison passed",
+      "date": "2026-11-12",
+      "limitation": "Lovers flames are small at 320px; use 640px or larger for counting. Not complete historical plate comparison or legal clearance."
+    }
   },
   "major-18": {
     "status": "adapted_candidate",
-    "noteZh": "月脸/双塔/狗狼/螯虾/路径齐；露滴15数量未核定，不算严格全符号通过。",
-    "noteEn": "Fifteen dew drops are not counted reliably.",
-    "sha256": "219a750ac1777f909e9d54481a9407a37ce07f8ee41277d925df8697f2d7e377",
-    "installed": true
+    "noteZh": "月亮15滴通过专项逐数；三排普通水滴而非yod形符号，主次光芒尚未逐一核对。原创改编，其他细节与权利仍待完整核验。",
+    "noteEn": "Targeted count passed: fifteen drops in three rows. Ordinary drop shapes, not yod glyphs; major/minor moon rays have not been individually verified. Original adaptation; other details and rights remain incompletely reviewed.",
+    "sha256": "6bacf8d8f1b68c72e4639878139bc47c4cb2e1eb0bfd91f414809067c4eeb547",
+    "installed": true,
+    "deliveryReview": {
+      "scope": "Three count-corrected cards only: PNG, nine WebP derivatives and three JPEG fallbacks; manifest hashes and actual visual comparison",
+      "result": "independent targeted comparison passed",
+      "date": "2026-11-12",
+      "limitation": "Lovers flames are small at 320px; use 640px or larger for counting. Not complete historical plate comparison or legal clearance."
+    }
   },
   "major-19": {
     "status": "adapted_candidate",
@@ -106,8 +130,8 @@
   },
   "major-3": {
     "status": "adapted_candidate",
-    "noteZh": "目视12星：左侧新增小星与原11星合计12；核心星数缺陷修复。原创构图不等于历史复刻。",
-    "noteEn": "Twelve-star count corrected; original adaptation, not a complete historical facsimile.",
+    "noteZh": "十二星为头部上方悬浮星弧，并非冠上十二星的原样复刻。保留为原创改编候选；星数专项记录不等于完整视觉或权利审查。",
+    "noteEn": "Twelve stars form a floating arc above the head, not twelve stars mounted on the crown. Retained as an original adaptation candidate; the count check is not complete visual or rights clearance.",
     "sha256": "5e92bd19af1cb168c0d325da9f91b015f4346260b0711beb86ed7b249187b37d",
     "installed": true
   },
@@ -134,10 +158,16 @@
   },
   "cups-1": {
     "status": "adapted_candidate",
-    "noteZh": "核心构图首轮检查；仍为原创改编候选，细节与权利待核。",
-    "noteEn": "1 chalice; dove+disk; cloud hand; corrected 5 streams; lilies Candidate, not final; detailed visual and rights review pending.",
-    "sha256": "ae32ffb49e8b4f76dce34ab1c9e10a6846bb340359715b0fe025420fa4631c18",
-    "installed": true
+    "noteZh": "五道水流、等臂十字圣饼与杯面W符号通过专项复核；仍为原创RWS改编候选，不是历史图版逐笔复制，完整视觉与权利审查未完成。",
+    "noteEn": "Targeted review passed for five streams, an equal-arm cross on the wafer, and the W on the chalice. Original RWS adaptation candidate, not a stroke-for-stroke historical copy; full visual and rights review remain incomplete.",
+    "sha256": "9f3b4bee3bb21f9306cb04a150134f239a447cab1b20bd556da75583ed550609",
+    "installed": true,
+    "deliveryReview": {
+      "scope": "Three revised cards only; PNG vs 320/640/1024 WebP and JPEG fallback, plus hashes",
+      "result": "independent targeted comparison passed",
+      "date": "2026-11-12",
+      "limitation": "Two of Wands emblem is small at 320px; use a larger view. Not a whole-deck, full historical or legal clearance."
+    }
   },
   "cups-2": {
     "status": "adapted_candidate",
@@ -232,10 +262,16 @@
   },
   "wands-2": {
     "status": "adapted_candidate",
-    "noteZh": "核心构图首轮检查；仍为原创改编候选，细节与权利待核。",
-    "noteEn": "Two separate staffs, globe and battlement Candidate, not final; detailed visual and rights review pending.",
-    "sha256": "53be605b44097ca76d1a48e38c98c2fed4950dd55996d4f7e4942d336c29e90d",
-    "installed": true
+    "noteZh": "两根独立权杖、地球与城垛保留；左墙玫瑰/百合交叉纹样及固定杖金属箍通过专项复核。原创RWS改编候选，完整视觉与权利审查未完成。",
+    "noteEn": "Two separate wands, globe and battlement retained; targeted review passed for the left-wall crossed rose/lily motif and metal fastenings on the fixed wand. Original RWS adaptation candidate; full visual and rights review remain incomplete.",
+    "sha256": "b1fd511cbbb61d5268bc9d4387e545b81e5d2375a300b8d77c10b93388f1680c",
+    "installed": true,
+    "deliveryReview": {
+      "scope": "Three revised cards only; PNG vs 320/640/1024 WebP and JPEG fallback, plus hashes",
+      "result": "independent targeted comparison passed",
+      "date": "2026-11-12",
+      "limitation": "Two of Wands emblem is small at 320px; use a larger view. Not a whole-deck, full historical or legal clearance."
+    }
   },
   "wands-3": {
     "status": "adapted_candidate",
@@ -522,6 +558,27 @@
     "noteZh": "B/J/TORA 与卷轴遮挡已完成专项独立目视复核；仍是改编候选，非历史构图逐细节复刻或全牌最终验收。",
     "noteEn": "B/J/TORA and partial scroll concealment passed targeted independent visual review. Adapted candidate, not an exact historical facsimile or final deck approval.",
     "sha256": "8d4dc49ee68d21fcf7b537cd28e134da37a39401c27c52261695b7be83364363",
+    "installed": true
+  },
+  "major-0": {
+    "status": "candidate",
+    "noteZh": "早期生成候选；此记录仅核验当前文件哈希，不代表新增视觉或权利审查。最终符号与构图审查待完成。",
+    "noteEn": "Early generated candidate. This record verifies the current file hash only, not a new visual or rights review. Final symbol and composition review remains pending.",
+    "sha256": "84faa579cbaa71ad3e0dc963395958767df8771e96f310ce9881879e3c8bca9d",
+    "installed": true
+  },
+  "major-13": {
+    "status": "candidate",
+    "noteZh": "早期生成候选；此记录仅核验当前文件哈希，不代表新增视觉或权利审查。最终符号与构图审查待完成。",
+    "noteEn": "Early generated candidate. This record verifies the current file hash only, not a new visual or rights review. Final symbol and composition review remains pending.",
+    "sha256": "d34039d97b820c48bca95dafaa94918ebeb2161504578be585f86b42ef21d945",
+    "installed": true
+  },
+  "cups-8": {
+    "status": "candidate",
+    "noteZh": "早期生成候选；此记录仅核验当前文件哈希，不代表新增视觉或权利审查。最终符号与构图审查待完成。",
+    "noteEn": "Early generated candidate. This record verifies the current file hash only, not a new visual or rights review. Final symbol and composition review remains pending.",
+    "sha256": "0666f0b01e08c948980c0bc69963d87ee1d1aa101493dfcb935dc21b1145ebb1",
     "installed": true
   }
 }

@@ -4,7 +4,7 @@
 
 `public/art/` contains 78 AI-generated candidate card faces, created for this project using OpenAI image-generation tooling under the owner's direction. They are original project candidates inspired by the Rider–Waite–Smith system and a Gothic stained-glass visual direction, not scans of a modern commercial deck. Generation does not by itself establish copyrightability, exclusivity, non-infringement, or worldwide public-domain status. Similar outputs may exist; rights and service terms vary by jurisdiction and applicable agreement.
 
-Per-card original hashes, review notes and adaptation limitations are recorded in `src/artReview.json`; derivative provenance is in `src/artDerivatives.json` and batch audit files. These are review records, not certificates of clearance. No claim is made that every face is final: Wheel letters/alchemical symbols remain pending; High Priestess passed a targeted B/J/TORA/scroll check, not complete final review. Public-domain historical motifs are distinguished from any rights in new expression.
+Per-card original hashes, review notes and adaptation limitations are recorded in `src/artReview.json`; derivative provenance is in `src/artDerivatives.json` and batch audit files. These are review records, not certificates of clearance. No claim is made that every face is final: Wheel letters/alchemical symbols passed targeted comparison as an original adaptation, with the upper spoke extension above Mercury missing; High Priestess passed a targeted B/J/TORA/scroll check, not complete final review. Public-domain historical motifs are distinguished from any rights in new expression.
 
 ## Derivatives and back
 

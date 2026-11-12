@@ -1,21 +1,22 @@
 {
   "cups-1": {
-    "originalSha256": "ae32ffb49e8b4f76dce34ab1c9e10a6846bb340359715b0fe025420fa4631c18",
-    "originalBytes": 3394067,
+    "originalSha256": "9f3b4bee3bb21f9306cb04a150134f239a447cab1b20bd556da75583ed550609",
+    "originalBytes": 3178716,
     "variants": {
       "320": {
-        "bytes": 90908,
-        "sha256": "591544d59662feb157430cbd7f9f85526f55c332f8218011597a66a642cacfe4"
+        "bytes": 95572,
+        "sha256": "e1a3bd9f90b9ce241f9c5aa07e58f90923beb99b7505794c810be86c5f563ab0"
       },
       "640": {
-        "bytes": 337922,
-        "sha256": "9b69ac16dce31d63ae5ffc136e2f34d87ca47900aab4da72e4d1e5d4b8bc1739"
+        "bytes": 342844,
+        "sha256": "bf170af5a138977b38c32a90fa0cc9e3e3ed2de30d31a46e1daac2fd2219557e"
       },
       "1024": {
-        "bytes": 802518,
-        "sha256": "b65289812ed2bdf7f1796519eb212a69a5d772bdc061035975813218efe6b6f8"
+        "bytes": 725758,
+        "sha256": "bf24a44931fd45d188cac48b276bead6337dc4ab504b134a96ac1c6cf2db55f9"
       }
-    }
+    },
+    "derivativeEncoder": "ImageMagick + libwebp, method 6; targeted regeneration, no source crop"
   },
   "cups-10": {
     "originalSha256": "4de6981ea77cbad5270a1c28281da6db0f3e07672fc677bbb27630b790a6a422",
@@ -360,40 +361,42 @@
     }
   },
   "major-17": {
-    "originalSha256": "1b09e7b56024bebc82ffe3d0223fc4198a15cf08bb9f3d264ef3b8297cba208a",
-    "originalBytes": 3827635,
+    "originalSha256": "305e485d0e73e1573892db1c7296a9e9a58fd371b864aea066d85e71363d6d5b",
+    "originalBytes": 3733787,
     "variants": {
       "320": {
-        "bytes": 96520,
-        "sha256": "6ee576ee48c1a2e308ff8c0e51e7203dffd259ed7b06efb3adc0dc01fee9fe97"
+        "bytes": 99330,
+        "sha256": "2bd552a47e54bd17e90e5ddf73b771f81832e2a32ace653b7b4e2cd4ec2136d4"
       },
       "640": {
-        "bytes": 364578,
-        "sha256": "646ae39a14d5286557da071ae5332e6b14426b909b20728d1702d5df38f162d2"
+        "bytes": 375962,
+        "sha256": "de55c8a2fc49ca38442849f26cc232062666144d509b5bebb92dc7d3cbdb3f70"
       },
       "1024": {
-        "bytes": 912250,
-        "sha256": "de85eaad8444d9edc5019d5edb728b37cb5c9cf37389ea1e3ba08ad38b5d0bab"
+        "bytes": 847978,
+        "sha256": "c20e6a06b625b6f554d2d2a8c5655c6be6aa97c592c9c854634de5fd2114aa87"
       }
-    }
+    },
+    "derivativeEncoder": "ImageMagick + libwebp, method 6; targeted regeneration, no source crop"
   },
   "major-18": {
-    "originalSha256": "219a750ac1777f909e9d54481a9407a37ce07f8ee41277d925df8697f2d7e377",
-    "originalBytes": 4018219,
+    "originalSha256": "6bacf8d8f1b68c72e4639878139bc47c4cb2e1eb0bfd91f414809067c4eeb547",
+    "originalBytes": 3819403,
     "variants": {
       "320": {
-        "bytes": 95332,
-        "sha256": "d43e1e952d78d332462351f4e3b9979f5d8e999f19ad6a4d49c3fd86c39b7417"
+        "bytes": 97076,
+        "sha256": "9fd74a6c73ee76dafb893a2d2f76a8e7f15ce7c4c70449894a9c4dda4e2f951f"
       },
       "640": {
-        "bytes": 373758,
-        "sha256": "71860a64db3d4ce09ac5f3149ac60243c9727e61aeff6be5612d3f2c9c20bb08"
+        "bytes": 378152,
+        "sha256": "7271c77c2d96ca127fe3d89d1ae5480152710b26bf9d25da4224cbd573111728"
       },
       "1024": {
-        "bytes": 924890,
-        "sha256": "eac1e5271f8c2eaf27389b06d94bccd58435f891c1779aa6d6551b1603a3bf9a"
+        "bytes": 846756,
+        "sha256": "9db31645b455af67491db27cee59576073ecdfeaa63ca834cbf940146e9a719a"
       }
-    }
+    },
+    "derivativeEncoder": "ImageMagick + libwebp, method 6; targeted regeneration, no source crop"
   },
   "major-19": {
     "originalSha256": "24f1e250fa7b15e2984aa5540112a226300e9e5426a1c08ce94a73c0d2254ffb",
@@ -504,22 +507,23 @@
     }
   },
   "major-6": {
-    "originalSha256": "6cb83b77e203397868e5653b5ac1c16fa51296f46ebaa62e628572fedd735d8b",
-    "originalBytes": 3942798,
+    "originalSha256": "383894c9cdd7601569bb25ee9c8815207ba70e33f718f566107c623db340d708",
+    "originalBytes": 3532089,
     "variants": {
       "320": {
-        "bytes": 102002,
-        "sha256": "629160b4a86c8f72ad5fe0fa5c4137588062cf1e47cbf82a8bc42875106d10e4"
+        "bytes": 103508,
+        "sha256": "d985f6e197f84b29c62bc9fe7e3fadd4a07f65a21fef87c756f437a10f9224a5"
       },
       "640": {
-        "bytes": 396140,
-        "sha256": "7b8e4f52d1d5f539b695f263a3ea8f4b3af4bf9928f7ab01cd337660fe954bc9"
+        "bytes": 374844,
+        "sha256": "fc89c1804feac134b026bbe65af38a39a6c92448bdb2c8bfa271e76ef2a2d60c"
       },
       "1024": {
-        "bytes": 996412,
-        "sha256": "e75539cf873e424eb16ec02e6c4741ef32ba843018895250084b878deda4b844"
+        "bytes": 813412,
+        "sha256": "6913bbdbd0bc9d3e6c24cc049cafc053b459fe04f8ed23e40100a251e282a039"
       }
-    }
+    },
+    "derivativeEncoder": "ImageMagick + libwebp, method 6; targeted regeneration, no source crop"
   },
   "major-7": {
     "originalSha256": "3f262aa08b11c0df5742aa6b0493d80236d23d26ad20181e1f32983bfc453295",
@@ -1188,22 +1192,23 @@
     }
   },
   "wands-2": {
-    "originalSha256": "53be605b44097ca76d1a48e38c98c2fed4950dd55996d4f7e4942d336c29e90d",
-    "originalBytes": 4377512,
+    "originalSha256": "b1fd511cbbb61d5268bc9d4387e545b81e5d2375a300b8d77c10b93388f1680c",
+    "originalBytes": 3687794,
     "variants": {
       "320": {
-        "bytes": 86614,
-        "sha256": "5ce9943a8b97c30613b0d74ad37a4b6f4bd4d6cb3ae4fbc2386b327f65a2c493"
+        "bytes": 89184,
+        "sha256": "3ed8d6f336906e4674acf777504f256a47e7930d1349e36988aaa6a5cbc5c2b6"
       },
       "640": {
-        "bytes": 368788,
-        "sha256": "20dcd186cecef9ce70e1a3fb167772ad9f73228d12cc568eb813e08ae6db57f6"
+        "bytes": 354978,
+        "sha256": "aeb2099df13162ecb4431a491d467c071e7e07c1373f042415a25c797a6d6279"
       },
       "1024": {
-        "bytes": 1004304,
-        "sha256": "170b006908c98c82c59d439dbb438652d5aa4d61494c04449c00fcb5b5bd78a0"
+        "bytes": 820714,
+        "sha256": "89a752289297b9ee338e40b90c31accbe9c4a8f461062912a9ef5e51f1b304cd"
       }
-    }
+    },
+    "derivativeEncoder": "ImageMagick + libwebp, method 6; targeted regeneration, no source crop"
   },
   "wands-3": {
     "originalSha256": "9d03af3bd884335e8e8ae5b267f659fdd34bdd1108b2eda4cfad6ff327d2a3a9",
@@ -1386,21 +1391,22 @@
     }
   },
   "major-10": {
-    "originalSha256": "d2f7914b44222384745c433467ba1d75010059d26f4fb5166654c7093650ba2b",
-    "originalBytes": 3721934,
+    "originalSha256": "5bbaf3cd1f8d5684633433aac8a7ff23714254b0a162a90ebaf3e15cc4d8d91e",
+    "originalBytes": 3084345,
     "variants": {
       "320": {
-        "bytes": 93466,
-        "sha256": "4cc101f27329764d77ea922c5186d01f4f1816beea172ce95d017bfe4ca5cd0a"
+        "bytes": 92882,
+        "sha256": "d97d9fa8de372234f600a736ee67123e051778fb018b04d01d4e59f4b0414848"
       },
       "640": {
-        "bytes": 353132,
-        "sha256": "f52d6d284795961d28564789343f6188caa704b44da8d18ff7938b9138a147f8"
+        "bytes": 327190,
+        "sha256": "17e615e3255ddfb49085c319bab5e1419b004a37da6eae6a014f5cdd72741f5a"
       },
       "1024": {
-        "bytes": 896256,
-        "sha256": "2ee0bf29c33d2f9c601e5b7212bcb88c16e8b9adcf8e8698a55e0ac6bcb45cc1"
+        "bytes": 698134,
+        "sha256": "1803255a2bf078d15f2ecbd4fb69d3dff96e40ecf824e29a99fd4866f183074b"
       }
-    }
+    },
+    "derivativeEncoder": "ImageMagick + libwebp, method 6; targeted regeneration, no source crop"
   }
 }

@@ -32,13 +32,13 @@ Bilingual interface, 78 identities and study notes, single/three-card fixed spre
 
 `src/auditBasic78.json`: **78 基础原典条目首轮文本核对，0 张全面审校完成**。额外释义、组合规则及早期图版全面审查仍待完成；不是完整翻译或历史信念的事实证明。4/23 张仅为早期里程碑，不是当前数量。原典为 A. E. Waite，链接转录展示 1922 年版，原作 1910；早期图像署名 Pamela Colman Smith。参见 `SOURCES.md`、`docs/audits/basic-78.md`。
 
-`public/art/`: **78 张生成候选正面及 1 张原创 SVG 牌背候选**，不是 74 张占位。女祭司 B/J/TORA 与卷轴遮挡专项复核通过，仍非最终成品批准；命运轮底图仍待字母与炼金符号。其余改编限制见 `src/artReview.json`（例如宝剑骑士马腿裁切、星币十排列）。最终逐张图像与权利审查未完成。
+`public/art/`: **78 张生成候选正面及 1 张原创 SVG 牌背候选**，不是 74 张占位。女祭司 B/J/TORA 与卷轴遮挡专项复核通过，仍非最终成品批准；命运轮文字与炼金符号专项复核通过，作为原创改编保留顶部水星上方延伸辐条缺失等限制。其余改编限制见 `src/artReview.json`（例如宝剑骑士马腿裁切、星币十排列）。最终逐张图像与权利审查未完成。
 
-78 basic historical sections have first-pass text review only. All faces remain generated candidates, not a certified final deck. Wheel typography is pending; High Priestess passed targeted symbol review only. Historical summaries and modern reflections are separate. Earlier audit documents are milestone evidence, not the current release status.
+78 basic historical sections have first-pass text review only. All faces remain generated candidates, not a certified final deck. Wheel symbol review passed as an adaptation, with the upper spoke extension above Mercury missing; High Priestess passed targeted symbol review only. Historical summaries and modern reflections are separate. Earlier audit documents are milestone evidence, not the current release status.
 
 ### 图片加载 / Image delivery
 
-原 PNG 保留；`scripts/derive-art.py` 使用免费 libwebp `cwebp` 生成 320/640/1024px WebP。图库懒加载，衍生图失败回退 PNG；不裁切符号。78 原图共 299,234,978 bytes，三个尺寸分别共 6,922,102 / 26,765,528 / 68,632,028 bytes。当前 `dist` 约 **424 MiB**，公开部署前须评估存储和传输，不能据本机测试宣称公网性能通过。衍生图沿用原图候选/许可状态。
+原 PNG 保留；`scripts/derive-art.py` 使用免费 libwebp `cwebp` 生成 320/640/1024px WebP；此次六张修订图在云端使用 ImageMagick/libwebp method 6 按同尺寸和质量级别重建，编码器记录在 manifest。图库懒加载，衍生图失败回退 PNG；不裁切符号。78 原图共 296,988,947 bytes，三个尺寸分别共 6,934,812 / 26,725,180 / 67,848,150 bytes。当前 `dist` 约 **380.6 MiB（逻辑字节）**，公开部署前须评估存储和传输，不能据本机测试宣称公网性能通过。衍生图沿用原图候选/许可状态。
 
 ## 可选对话 / Optional conversation
 
@@ -60,7 +60,7 @@ Inspired by ziwei-doushu's complete-system approach, provenance and optional con
 
 ## 发布边界 / Release gate
 
-阅读 `docs/RELEASE_FUNCTIONAL_QA.md` 与 `docs/RELEASE_CHECKLIST.md`。当前为公开源码预览，不是正式发布版本，也未部署网站。Chrome 已完成记录中的功能检查，Safari 仅完成抽牌、语言与历史的冒烟测试；Firefox 未测试。完整读屏、公网性能、全部牌面历史细节和权利审查均未完成。命运轮符号仍待修订。初始源码采用白名单导出并检查常见凭据模式，不能据此保证不存在任何潜在秘密；后续提交仍需独立检查。
+阅读 `docs/RELEASE_FUNCTIONAL_QA.md` 与 `docs/RELEASE_CHECKLIST.md`。当前为公开源码预览，不是正式发布版本，也未部署网站。Chrome 已完成记录中的功能检查，Safari 仅完成抽牌、语言与历史的冒烟测试；Firefox 未测试。完整读屏、公网性能、全部牌面历史细节和权利审查均未完成。命运轮符号专项复核已通过，仍保留原创改编差异。初始源码采用白名单导出并检查常见凭据模式，不能据此保证不存在任何潜在秘密；后续提交仍需独立检查。
 
 ### 第三方运行时代码 / Bundled third-party code
 构建根据实际 Rollup 非空输出模块生成 `THIRD_PARTY_NOTICES.md`，并将上游完整 LICENSE/NOTICE 原样放入 `dist/licenses/`，构建结束自动逐字核验，不改变第三方条款。当前渲染代码包含 Vue 3.5.45 的 runtime-dom/runtime-core/reactivity/shared，以及 Vite 7.3.8 modulepreload 与 @vitejs/plugin-vue 6.0.10 export-helper 虚拟模块；未知非空虚拟模块会阻止构建，须先核查来源；Vue 顶层入口自身无保留代码，但其运行时包的完整 MIT 署名均随附。发布 dist 时不得遗漏通知目录。
@@ -68,4 +68,6 @@ Inspired by ziwei-doushu's complete-system approach, provenance and optional con
 `docs/DEPENDENCY_INVENTORY.json` separately records all lockfile build/test/type/transitive dependency license declarations, including non-MIT declarations. It is metadata, not a replacement for their full license texts. Source delivery excludes node_modules; if tools, binaries or dependencies are redistributed later, include their own complete licenses and NOTICE requirements. Generated production notices cover only rendered browser code, not artwork or external documentation.
 
 ### 独立轻量交付试构建 / Independent lightweight build
-`npm run build:web` requires local ImageMagick `magick` and Python3. It keeps all original PNGs, stages JPEG fallbacks separately and produces `dist-web/` with unchanged responsive WebP variants. Original hashes and every output path are verified. Normal `npm run build` and the dev preview still use original PNG fallback. Measured web artifact is about198.5MB logical bytes versus402.2MB for normal dist; All 78 JPEG pairs received overview comparison and selected details received close-up review; full-resolution human review of every symbol remains incomplete (docs/JPEG_FALLBACK_QA.md). No deployment is performed. Both artifacts carry full licensing notices.
+`npm run build:web` requires local ImageMagick `magick` and Python3. It keeps all original PNGs, stages JPEG fallbacks separately and produces `dist-web/` with unchanged responsive WebP variants. Original hashes and every output path are verified. Normal `npm run build` and the dev preview still use original PNG fallback. This cloud build measures 196,671,314 logical bytes for dist-web and 399,099,804 for normal dist. Encoder versions can affect JPEG sizes. The earlier 78-pair overview applies to its recorded build; three revised images have since been integrated and regenerated. Current hashes and paths pass verification. Independent comparison of the three revised PNG/WebP/JPEG sets passed; the Two of Wands emblem is small at 320px and needs a larger view. The additional Lovers/Star/Moon count-correction delivery sets also passed independent PNG/9-WebP/3-JPEG visual and manifest checks. Lovers flames are small at 320px; count at 640px or larger. This is not a new full-78 or full-resolution historical review (docs/JPEG_FALLBACK_QA.md). No deployment is performed. Both artifacts carry full licensing notices.
+
+Whole-deck scope: all 78 project images received actual visual inspection, but exhaustive historical source-plate comparison remains incomplete, including 19 numbered Minor cards and three Court cards among the documented gaps. Six targeted corrections and derivative checks do not constitute complete 78-card historical or legal clearance.
