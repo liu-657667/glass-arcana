@@ -1,0 +1,4 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
+import {nextArtLoadState,artFailureMessage} from '../src/artLoadState';
+test('two image errors terminate in explicit unavailable state without retry loop',()=>{assert.equal(nextArtLoadState('responsive'),'fallback');assert.equal(nextArtLoadState('fallback'),'unavailable');assert.equal(nextArtLoadState('unavailable'),'unavailable');});
+test('failure messages are bilingual and component resets only when identity changes',()=>{assert.match(artFailureMessage('zh'),/不受影响/);assert.match(artFailureMessage('en'),/unchanged/);const source=readFileSync('src/CardArtwork.vue','utf8');assert.match(source,/loadState.value=nextArtLoadState/);assert.match(source,/watch\(\(\)=>props.id/);assert.match(source,/role="img" :aria-label="alt"/);});

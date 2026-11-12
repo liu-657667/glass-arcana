@@ -1,0 +1,593 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-12",
+  "coverage": {
+    "identities": 78,
+    "primaryTextChecked": 4,
+    "fullyAudited": 0,
+    "remainingPrimaryText": 74
+  },
+  "sources": [
+    {
+      "id": "waite-1922-ii",
+      "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot/Part_2",
+      "edition": "Wikisource transcription of London: William Rider & Son, 1922",
+      "author": "A. E. Waite",
+      "role": "historical primary text"
+    },
+    {
+      "id": "waite-1922-iii",
+      "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot/Part_3",
+      "edition": "same edition",
+      "author": "A. E. Waite",
+      "role": "historical primary text"
+    },
+    {
+      "id": "cups08-commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Cups08.jpg",
+      "edition": "metadata labels Pam-A, 1910; current upload 2024-04-05",
+      "artist": "Pamela Colman Smith",
+      "role": "edition and licensing checked; visual comparison pending"
+    }
+  ],
+  "cards": [
+    {
+      "id": "major-0",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "愚者",
+        "en": "The Fool"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "临崖旅人、犬、玫瑰、肩上行囊、身后太阳。",
+          "en": "Traveller at a cliff; dog, rose, shoulder bag and sun behind."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          "白玫瑰、白犬和精确方位须对早期图版另验。"
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "第二部侧重寻求经验；第三部另列鲁莽等旧占义，两层不应混作单一标准答案。",
+          "en": "Part II concerns seeking experience; Part III separately gives older adverse divination."
+        },
+        "divination": {
+          "zh-CN": "正位：鲁莽等；逆位：疏忽等。摘要而非完整译本。",
+          "en": "Upright: folly, among other terms. Reversed: negligence, among other terms. Selective summary."
+        },
+        "locator": "Part II §2, Zero; Part III §3, Zero",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "启程与准备",
+          "en": "Beginning and preparation"
+        },
+        "uprightPrompt": {
+          "zh-CN": "我愿意尝试什么？迈出小步前，还需要核实哪一项风险？",
+          "en": "What would I like to try, and which risk should I check before taking a small step?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我是在谨慎准备，还是不断推迟？怎样分清两者？",
+          "en": "Am I preparing carefully or postponing? How can I tell the difference?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一种反思角度，不是坏运气，也不等于原典逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical reversed meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ]
+    },
+    {
+      "id": "major-2",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "女祭司",
+        "en": "The High Priestess"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "月牙在脚边；角状冠中央有球；胸前十字；半遮的 Tora 卷轴；B/J 黑白柱；棕榈与石榴帷幕。",
+          "en": "Crescent at feet; horned crown and globe; cross; partly covered Tora scroll; black/white B/J pillars; palm-and-pomegranate veil."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          "左右柱位需图版核验，文本列举顺序不能证明画面左右。"
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特把半遮卷轴联系到显明与隐含的教义，背景属于其宗教神秘主义。",
+          "en": "Waite links the covered scroll with explicit and implicit teaching in his religious mysticism."
+        },
+        "divination": {
+          "zh-CN": "正位：秘密、尚未显露；逆位：表面知识等。原文含性别化指代，应用不沿用。",
+          "en": "Upright: mystery, unrevealed matters. Reversed: surface knowledge, among others. Gendered identifications are not used here."
+        },
+        "locator": "Part II §2, II; Part III §3, 2",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "静观与求证",
+          "en": "Observation and verification"
+        },
+        "uprightPrompt": {
+          "zh-CN": "哪些是已知事实，哪些只是我的直觉？还缺什么信息？",
+          "en": "What is established fact, what is intuition, and what information is missing?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我是否把猜测当成确定的知识？可以向哪里求证？",
+          "en": "Am I treating an assumption as knowledge? Where could I check it?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一种反思角度，不是坏运气，也不等于原典逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical reversed meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ]
+    },
+    {
+      "id": "major-13",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "死神",
+        "en": "Death"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "骑者持黑旗与玫瑰；没有可见武器；远处双柱之间有太阳。",
+          "en": "Rider, black rose-banner, no visible weapon; sun between distant pillars."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          "白马、盔甲、玫瑰五瓣和人物姿态须图版复核；禁加镰刀。"
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "第二部既讨论转变，也涉及死亡与精神过渡；不可伪称原典只谈新开始。",
+          "en": "Part II treats transformation as well as death and spiritual passage, not only fresh starts."
+        },
+        "divination": {
+          "zh-CN": "正位含结束、死亡等旧词；逆位含停滞。仅作历史说明，不据此预测健康或死亡。",
+          "en": "Upright includes endings and mortality; reversed includes inertia. Historical context, not a health or death prediction."
+        },
+        "locator": "Part II §2, XIII; Part III §3, 13",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "结束与调整",
+          "en": "Endings and adjustment"
+        },
+        "uprightPrompt": {
+          "zh-CN": "什么已经不再适合我？我能以什么稳妥方式结束或调整它？",
+          "en": "What no longer fits, and how could I end or adjust it safely?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "面对变化，我需要时间、支持，还是一个更小的行动？",
+          "en": "Facing change, do I need time, support, or a smaller action?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一种反思角度，不是坏运气，也不等于原典逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical reversed meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ]
+    },
+    {
+      "id": "cups-8",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "圣杯八",
+        "en": "Eight of Cups"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "旅人离开原先的杯子。",
+          "en": "A traveller leaves the cups behind."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          "八杯、下五上三、缺口、月与山水待逐图视觉复核；许可页已查。"
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "原书明确记录相反释义；离开不是唯一原典解释。",
+          "en": "Waite explicitly records conflicting readings; departure is not the sole historical interpretation."
+        },
+        "divination": {
+          "zh-CN": "正位有事情衰退，也有相反的喜悦等解读；逆位记喜悦与宴饮。",
+          "en": "Upright includes decline and contradictory joyful readings; reversed includes joy and feasting."
+        },
+        "locator": "Part III §2, Cups Eight",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "重新评估投入",
+          "en": "Reassessing commitment"
+        },
+        "uprightPrompt": {
+          "zh-CN": "我继续投入是出于重视，还是只因已经付出了很多？",
+          "en": "Am I continuing because this matters, or simply because I have already invested a lot?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "留下、离开或暂缓各有什么现实代价？先核实什么？",
+          "en": "What are the practical costs of staying, leaving or pausing? What should I verify first?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一种反思角度，不是坏运气，也不等于原典逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical reversed meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-iii",
+        "cups08-commons"
+      ]
+    }
+  ],
+  "manifest": [
+    {
+      "id": "major-0",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-1",
+      "review": "pending"
+    },
+    {
+      "id": "major-2",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-3",
+      "review": "pending"
+    },
+    {
+      "id": "major-4",
+      "review": "pending"
+    },
+    {
+      "id": "major-5",
+      "review": "pending"
+    },
+    {
+      "id": "major-6",
+      "review": "pending"
+    },
+    {
+      "id": "major-7",
+      "review": "pending"
+    },
+    {
+      "id": "major-8",
+      "review": "pending"
+    },
+    {
+      "id": "major-9",
+      "review": "pending"
+    },
+    {
+      "id": "major-10",
+      "review": "pending"
+    },
+    {
+      "id": "major-11",
+      "review": "pending"
+    },
+    {
+      "id": "major-12",
+      "review": "pending"
+    },
+    {
+      "id": "major-13",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-14",
+      "review": "pending"
+    },
+    {
+      "id": "major-15",
+      "review": "pending"
+    },
+    {
+      "id": "major-16",
+      "review": "pending"
+    },
+    {
+      "id": "major-17",
+      "review": "pending"
+    },
+    {
+      "id": "major-18",
+      "review": "pending"
+    },
+    {
+      "id": "major-19",
+      "review": "pending"
+    },
+    {
+      "id": "major-20",
+      "review": "pending"
+    },
+    {
+      "id": "major-21",
+      "review": "pending"
+    },
+    {
+      "id": "wands-1",
+      "review": "pending"
+    },
+    {
+      "id": "wands-2",
+      "review": "pending"
+    },
+    {
+      "id": "wands-3",
+      "review": "pending"
+    },
+    {
+      "id": "wands-4",
+      "review": "pending"
+    },
+    {
+      "id": "wands-5",
+      "review": "pending"
+    },
+    {
+      "id": "wands-6",
+      "review": "pending"
+    },
+    {
+      "id": "wands-7",
+      "review": "pending"
+    },
+    {
+      "id": "wands-8",
+      "review": "pending"
+    },
+    {
+      "id": "wands-9",
+      "review": "pending"
+    },
+    {
+      "id": "wands-10",
+      "review": "pending"
+    },
+    {
+      "id": "wands-11",
+      "review": "pending"
+    },
+    {
+      "id": "wands-12",
+      "review": "pending"
+    },
+    {
+      "id": "wands-13",
+      "review": "pending"
+    },
+    {
+      "id": "wands-14",
+      "review": "pending"
+    },
+    {
+      "id": "cups-1",
+      "review": "pending"
+    },
+    {
+      "id": "cups-2",
+      "review": "pending"
+    },
+    {
+      "id": "cups-3",
+      "review": "pending"
+    },
+    {
+      "id": "cups-4",
+      "review": "pending"
+    },
+    {
+      "id": "cups-5",
+      "review": "pending"
+    },
+    {
+      "id": "cups-6",
+      "review": "pending"
+    },
+    {
+      "id": "cups-7",
+      "review": "pending"
+    },
+    {
+      "id": "cups-8",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "cups-9",
+      "review": "pending"
+    },
+    {
+      "id": "cups-10",
+      "review": "pending"
+    },
+    {
+      "id": "cups-11",
+      "review": "pending"
+    },
+    {
+      "id": "cups-12",
+      "review": "pending"
+    },
+    {
+      "id": "cups-13",
+      "review": "pending"
+    },
+    {
+      "id": "cups-14",
+      "review": "pending"
+    },
+    {
+      "id": "swords-1",
+      "review": "pending"
+    },
+    {
+      "id": "swords-2",
+      "review": "pending"
+    },
+    {
+      "id": "swords-3",
+      "review": "pending"
+    },
+    {
+      "id": "swords-4",
+      "review": "pending"
+    },
+    {
+      "id": "swords-5",
+      "review": "pending"
+    },
+    {
+      "id": "swords-6",
+      "review": "pending"
+    },
+    {
+      "id": "swords-7",
+      "review": "pending"
+    },
+    {
+      "id": "swords-8",
+      "review": "pending"
+    },
+    {
+      "id": "swords-9",
+      "review": "pending"
+    },
+    {
+      "id": "swords-10",
+      "review": "pending"
+    },
+    {
+      "id": "swords-11",
+      "review": "pending"
+    },
+    {
+      "id": "swords-12",
+      "review": "pending"
+    },
+    {
+      "id": "swords-13",
+      "review": "pending"
+    },
+    {
+      "id": "swords-14",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-1",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-2",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-3",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-4",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-5",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-6",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-7",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-8",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-9",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-10",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-11",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-12",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-13",
+      "review": "pending"
+    },
+    {
+      "id": "pentacles-14",
+      "review": "pending"
+    }
+  ]
+}

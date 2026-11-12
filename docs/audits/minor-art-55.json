@@ -1,0 +1,332 @@
+[
+  {
+    "id": "cups-1",
+    "sha256": "ae32ffb49e8b4f76dce34ab1c9e10a6846bb340359715b0fe025420fa4631c18",
+    "note": "1 chalice; dove+disk; cloud hand; corrected 5 streams; lilies",
+    "sourcePackage": "cups"
+  },
+  {
+    "id": "cups-2",
+    "sha256": "55f1017aea6c5a66d45865e3dde5e6cca23cadfd0f5a51cd48781c441c9a8804",
+    "note": "2 people with 2 cups; winged lion; caduceus",
+    "sourcePackage": "cups"
+  },
+  {
+    "id": "cups-3",
+    "sha256": "cef31f8bf135250820f6fb9af8134ce5fb0018b789f27110666967902dd53e89",
+    "note": "3 celebrating women with 3 cups; harvest",
+    "sourcePackage": "cups"
+  },
+  {
+    "id": "cups-4",
+    "sha256": "876bc572d9b0d104b8cd97d1f73c42ba33ee78477655170b3934232fe81c215e",
+    "note": "3 ground cups +1 cloud-offered; seated folded arms",
+    "sourcePackage": "cups"
+  },
+  {
+    "id": "cups-5",
+    "sha256": "9f3a5b540fa7b71b9e1ca2a627adeee82fbccc961d06dd1cc89404c0c00d4f6d",
+    "note": "3 spilled +2 upright cups; cloaked grief; bridge river",
+    "sourcePackage": "cups"
+  },
+  {
+    "id": "cups-6",
+    "sha256": "e0ab78978930413020a4c6eddc915e64b0d48299c1ad23d07c8a94c35f2db4f9",
+    "note": "4 foreground +1 offered +1 pedestal=6; flowers children",
+    "sourcePackage": "cups"
+  },
+  {
+    "id": "cups-7",
+    "sha256": "046a08adeca1db27b2701cd66b6b5b3c01b492fc94df7de77bea3504963b0d79",
+    "note": "3 upper +4 lower=7; head,veiled figure,snake,castle,jewels,wreath,dragon",
+    "sourcePackage": "cups"
+  },
+  {
+    "id": "cups-9",
+    "sha256": "38e08ed0327a6d26d8204a84b781d5362c57144174c6595a4ca8a57490e7807a",
+    "note": "9 cups arc; seated folded arms",
+    "sourcePackage": "cups"
+  },
+  {
+    "id": "cups-10",
+    "sha256": "4de6981ea77cbad5270a1c28281da6db0f3e07672fc677bbb27630b790a6a422",
+    "note": "10 cups rainbow; 2 adults 2 children home river",
+    "sourcePackage": "cups"
+  },
+  {
+    "id": "cups-11",
+    "sha256": "60a03e9dc2c08ac02a356e67f741b7a31d750af1f885abf123d02c1c150ffa51",
+    "note": "1 cup fish emerging; youthful page by sea",
+    "sourcePackage": "cups"
+  },
+  {
+    "id": "cups-12",
+    "sha256": "960c39315a47dfea9778dea36a21d6cd0ac66123a7bb1ae9a1559af32350a8ea",
+    "note": "1 cup; armored winged helmet knight; calm white horse four legs river",
+    "sourcePackage": "cups"
+  },
+  {
+    "id": "cups-13",
+    "sha256": "d351759f10ddfd28b7fb799f09b571484572fc77da15f90e029cb1b60a953221",
+    "note": "1 covered wing-handled cup; queen seaside throne",
+    "sourcePackage": "cups"
+  },
+  {
+    "id": "cups-14",
+    "sha256": "d91e993f445ff63a3240d293f1a43f0b4bb5bbf840d8c5353d238e94183d76b8",
+    "note": "1 cup+scepter; crowned seated king sea throne fish ship",
+    "sourcePackage": "cups"
+  },
+  {
+    "id": "wands-1",
+    "sha256": "88e55fecb1f0ffeb749c33a4ca9accd9047f030c14408ba509bb2e3ba115d121",
+    "note": "One sprouting wand in cloud-hand, castle landscape",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "wands-2",
+    "sha256": "53be605b44097ca76d1a48e38c98c2fed4950dd55996d4f7e4942d336c29e90d",
+    "note": "Two separate staffs, globe and battlement",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "wands-3",
+    "sha256": "9d03af3bd884335e8e8ae5b267f659fdd34bdd1108b2eda4cfad6ff327d2a3a9",
+    "note": "Three staffs, traveler and three ships",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "wands-4",
+    "sha256": "e3936126c15d35a51741b8a94f57b054b4ced2389972e7f8c146e6cf1f552498",
+    "note": "Four staff canopy, garland and celebrants",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "wands-5",
+    "sha256": "d40e60e485007decf992d0f654fa46757f7b478ec48aab12a044ec0b8fe727d2",
+    "note": "Five people each holding one traceable staff",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "wands-6",
+    "sha256": "f94f795517c8a6b95c4ce85b4776ba424134d777076e97413732c4bf7a715dba",
+    "note": "Five background staffs plus wreath staff on rider = six",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "wands-7",
+    "sha256": "4ade25d096281b0170752a933b5490d71a144a608e77cc50616f4a810123b79d",
+    "note": "Six incoming staffs plus held defender staff = seven, mismatched footwear",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "wands-8",
+    "sha256": "fae74ffcf7b3620e7b1cd8c4b49c50f5e9083b37acc867a9a224708f7e42d155",
+    "note": "Four pairs = eight airborne staffs; gold end-caps are a stylized deviation from plain RWS rods",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "wands-9",
+    "sha256": "5658b243474e29ecf6e09718b89c9c51a2eabdfc8c3437dac35dfc002312c6fc",
+    "note": "Eight background staffs plus held one = nine, bandaged sentinel",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "wands-10",
+    "sha256": "ea41b233cfc3588fd7c7722ca1a98c2923d0db1a89ab1fd6dd79dfc8c81ce63c",
+    "note": "Ten visible upper ends (five left/five right), burdened carrier",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "wands-11",
+    "sha256": "795d65d91bac852aff26c576a26a905da59433088a24227d62b1076d8334a3ea",
+    "note": "One staff, salamander tunic, desert pyramids",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "wands-12",
+    "sha256": "84e8e60ea5bb1f795a191706e0de6e547d7cf8038d9217fc1e8271d9a011f76c",
+    "note": "One staff, rearing horse, salamander surcoat",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "wands-13",
+    "sha256": "5399534068e10f4d3b89d8ed005660d684fac5422b44d0130327b9e838ba6b2b",
+    "note": "One staff, sunflower, black cat, lion throne",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "wands-14",
+    "sha256": "9a1f2d070ca3122d4c42e776728f3bf708c5b23c3c0d0f10606c15e78a203758",
+    "note": "One staff, lion/salamander throne, ground salamander",
+    "sourcePackage": "wands"
+  },
+  {
+    "id": "swords-1",
+    "sha256": "3768b732d26ab498839af61649667f26e243fe17a2f334c342765ae626b506af",
+    "note": "Original adaptation, not exact facsimile of every RWS secondary detail",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "swords-2",
+    "sha256": "88fe888fff9368f404a489de7be371bf1ed0ac33e91f61f902a61888a962cf5f",
+    "note": "Original adaptation, not exact facsimile of every RWS secondary detail",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "swords-3",
+    "sha256": "ec21438f276db870461f82fc4b8f54496ce83dae6c11b37619b7a36c4fc62d8e",
+    "note": "Original adaptation, not exact facsimile of every RWS secondary detail",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "swords-4",
+    "sha256": "84f3e8e0038d0be05397c04a710a7c740fb626c6482a4ff6e5144689d185176a",
+    "note": "Original adaptation, not exact facsimile of every RWS secondary detail",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "swords-5",
+    "sha256": "65f9568baf2efbd6147c949b2fc21d4564d9a4a36fe77eed4b33f46717eba97a",
+    "note": "Original adaptation, not exact facsimile of every RWS secondary detail",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "swords-6",
+    "sha256": "8c68d548580f5b23af00f36a109860de8e73ec39aca75e1431c516efc1dad594",
+    "note": "Original adaptation, not exact facsimile of every RWS secondary detail",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "swords-7",
+    "sha256": "76849f53b48c1e2afb9aa92e3f0a561a6043e4da0792564d51de366eec32aa53",
+    "note": "Original adaptation, not exact facsimile of every RWS secondary detail",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "swords-8",
+    "sha256": "07047032fd42e0e9e7dccb05d051a42edbd3e71c4177e6be42930696f0091813",
+    "note": "Original adaptation, not exact facsimile of every RWS secondary detail",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "swords-9",
+    "sha256": "32eaf9904dc86d1f3dcc8a07a19aa4850e1d1c6fa9068d059e60f606f8e03ad1",
+    "note": "Original adaptation, not exact facsimile of every RWS secondary detail",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "swords-10",
+    "sha256": "7d4cb4aeb6bfbb15cb13f59b65491b2c7673c9361277fd946131ecd0029a8183",
+    "note": "Original adaptation, not exact facsimile of every RWS secondary detail",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "swords-11",
+    "sha256": "a0003c68496af8bacef96fb4073ead779a3bcb1c37e682d06fa34e144af520e6",
+    "note": "Original adaptation, not exact facsimile of every RWS secondary detail",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "swords-12",
+    "sha256": "343bfbad5ae7508795f9caf646e9a33932dd4016102afab912190a0be258d67e",
+    "note": "Horse far hind leg cropped by right border; core knight/sword scene clear",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "swords-13",
+    "sha256": "1a8b42e2bff22e3415c83ce1a4ba91c74cb6bc0e9636de0969b76f81478d7323",
+    "note": "Original adaptation, not exact facsimile of every RWS secondary detail",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "swords-14",
+    "sha256": "908d74c19d05b54255ee0742eade29cc87a3b67f2def0c4724239d13bb729b1b",
+    "note": "Original adaptation, not exact facsimile of every RWS secondary detail",
+    "sourcePackage": "swords"
+  },
+  {
+    "id": "pentacles-1",
+    "sha256": "183b5543172041b2ed297e94d26692a1de23278ce320b772dc24ead957cda817",
+    "note": "Core composition checked; detailed visual and rights review pending.",
+    "sourcePackage": "pentacles"
+  },
+  {
+    "id": "pentacles-2",
+    "sha256": "9d100bd9ce115beba194961fc8583dc5fc53d25b791cb63fc35a395b70ac04fe",
+    "note": "Core composition checked; detailed visual and rights review pending.",
+    "sourcePackage": "pentacles"
+  },
+  {
+    "id": "pentacles-3",
+    "sha256": "d2c5d8546b3d77dac8049c4f2baf5f4f068ec9f5e8da03c7e4ac2ec4a1cbe3c6",
+    "note": "Core composition checked; detailed visual and rights review pending.",
+    "sourcePackage": "pentacles"
+  },
+  {
+    "id": "pentacles-4",
+    "sha256": "454b0b229a3b320700ab8d50f82191a31487b9233da4cc15e94a1d4ecf70b666",
+    "note": "Core composition checked; detailed visual and rights review pending.",
+    "sourcePackage": "pentacles"
+  },
+  {
+    "id": "pentacles-5",
+    "sha256": "12368e2fd530033c824842f4b06f7793fd8d9d77773d30b9223bd6911bd468cd",
+    "note": "Core composition checked; detailed visual and rights review pending.",
+    "sourcePackage": "pentacles"
+  },
+  {
+    "id": "pentacles-6",
+    "sha256": "91bc4dac23cff6593f878d837eaafd844aedd698856b06cc064c16d6176086bf",
+    "note": "Core composition checked; detailed visual and rights review pending.",
+    "sourcePackage": "pentacles"
+  },
+  {
+    "id": "pentacles-7",
+    "sha256": "b12cb07d226fa5dc29c64ccf4fb9609609f3f93512de5d1023e3bc6804cd1d96",
+    "note": "Core composition checked; detailed visual and rights review pending.",
+    "sourcePackage": "pentacles"
+  },
+  {
+    "id": "pentacles-8",
+    "sha256": "57e16a5c3e2930c538c3c60b263cf53e1fb15b87ea76feed4b3445e53b1a0469",
+    "note": "Core composition checked; detailed visual and rights review pending.",
+    "sourcePackage": "pentacles"
+  },
+  {
+    "id": "pentacles-9",
+    "sha256": "e1e67c4eb53da9b8f98c924468c7ca6765936b26e87e501187737aeacf3d5ccb",
+    "note": "Core composition checked; detailed visual and rights review pending.",
+    "sourcePackage": "pentacles"
+  },
+  {
+    "id": "pentacles-10",
+    "sha256": "292b7712f509825a353a55a1aa79898b858380598025cd47865f9383dcdf6dd9",
+    "note": "Ten coins in two side columns, not historical Tree of Life arrangement; original compositional adaptation.",
+    "sourcePackage": "pentacles"
+  },
+  {
+    "id": "pentacles-11",
+    "sha256": "6c650271d3cb329f0c6c1dc23fb3e798ffbfc77b4e9422191b2b91476a321fb9",
+    "note": "Core composition checked; detailed visual and rights review pending.",
+    "sourcePackage": "pentacles"
+  },
+  {
+    "id": "pentacles-12",
+    "sha256": "49ced7446f8f68d3f34e1581b081fec4ba2f31c6669bcfd2b67bc49119e678e2",
+    "note": "Core composition checked; detailed visual and rights review pending.",
+    "sourcePackage": "pentacles"
+  },
+  {
+    "id": "pentacles-13",
+    "sha256": "a9d540a8fec7d1176db6c27cda553732060dc7f176d2318f5fe38f1d9cf2f5c1",
+    "note": "Core composition checked; detailed visual and rights review pending.",
+    "sourcePackage": "pentacles"
+  },
+  {
+    "id": "pentacles-14",
+    "sha256": "29dc3027c0c4578edfeb13d8ee9bfc6d47cd09183e05de40aedb1623f0d2aca5",
+    "note": "King star brooch removed in accepted revision.",
+    "sourcePackage": "pentacles"
+  }
+]

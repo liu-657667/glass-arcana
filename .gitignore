@@ -1,0 +1,31 @@
+node_modules/
+dist/
+.env*
+playwright-report/
+test-results/
+
+# Private local state and development artifacts
+.preview.log
+.preview.pid
+.backups/
+.staging/
+.audit-import/
+.library-transfer*/
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+.local/
+local-data/
+private-data/
+glass-arcana-history*.json
+playwright/.auth/
+.DS_Store
+*.zip
+
+# Independent lightweight delivery artifact
+dist-web/

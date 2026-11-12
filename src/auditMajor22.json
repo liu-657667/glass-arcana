@@ -1,0 +1,1856 @@
+{
+  "schemaVersion": 1,
+  "batchId": "major-text-22",
+  "checkedAt": "2026-11-12",
+  "coverage": {
+    "identities": 78,
+    "primaryTextCheckedInThisFile": 22,
+    "fullyAudited": 0,
+    "minorCardsNotIncluded": 56,
+    "note": "Earlier batch 01 separately checked Cups Eight; cumulative primary-text coverage is 23/78 if both batches are retained."
+  },
+  "sources": [
+    {
+      "id": "waite-1922-ii",
+      "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot/Part_2",
+      "edition": "Wikisource transcription; London: William Rider & Son, 1922",
+      "author": "A. E. Waite",
+      "role": "historical primary text, not empirical evidence"
+    },
+    {
+      "id": "waite-1922-iii",
+      "url": "https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot/Part_3",
+      "edition": "Wikisource transcription; London: William Rider & Son, 1922",
+      "author": "A. E. Waite",
+      "role": "historical primary text, not empirical evidence"
+    }
+  ],
+  "cards": [
+    {
+      "id": "major-0",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "愚者",
+        "en": "The Fool"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "临崖旅人、犬、玫瑰、行囊、身后太阳。",
+          "en": "Traveller at a cliff, dog, rose, bag and sun behind."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "第二部讲寻求经验；第三部旧占义另论，不是同一层。",
+          "en": "Part II concerns seeking experience; Part III offers a separate divinatory layer."
+        },
+        "divination": {
+          "zh-CN": "正：鲁莽等；逆：疏忽等。",
+          "en": "Upright: folly; reversed: negligence, among other terms."
+        },
+        "locator": "Part II §2, Zero; Part III §3, Zero",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "启程与准备",
+          "en": "Beginning and preparation"
+        },
+        "uprightPrompt": {
+          "zh-CN": "我愿意尝试什么？先核实哪项风险？",
+          "en": "What would I like to try, and which risk should I check first?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我是在谨慎准备，还是不断推迟？",
+          "en": "Am I preparing carefully or continually postponing?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-1",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "魔术师",
+        "en": "The Magician"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "举杖向天、另一手指地，桌上四花色，蛇腰带。",
+          "en": "Raised wand, hand toward earth, four suits on a table, serpent belt."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特将上下姿势联系到精神恩赐的传递。",
+          "en": "Waite relates the gesture to transmission of spiritual gifts."
+        },
+        "divination": {
+          "zh-CN": "正：技巧、意志；逆：不安等。",
+          "en": "Upright: skill, will; reversed: disquiet, among others."
+        },
+        "locator": "Part II §2, I; Part III §3, 1",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "行动与资源",
+          "en": "Action and resources"
+        },
+        "uprightPrompt": {
+          "zh-CN": "我有哪些可用资源？今天能完成哪一步？",
+          "en": "What resources can I use, and what step can I complete today?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我是在行动，还是用忙碌掩盖方向不清？",
+          "en": "Am I making progress or hiding uncertainty behind activity?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-2",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "女祭司",
+        "en": "The High Priestess"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "月冠、脚边月牙、胸前十字、半遮Tora卷轴、B/J柱、棕榈石榴帷幕。",
+          "en": "Moon crown, crescent at feet, cross, covered Tora scroll, B/J pillars, palm-and-pomegranate veil."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "半遮卷轴关联显明与隐含教义，属于韦特宗教神秘主义。",
+          "en": "The covered scroll relates to explicit and implicit teaching in Waite's religious mysticism."
+        },
+        "divination": {
+          "zh-CN": "正：秘密、未明；逆：表面知识等。",
+          "en": "Upright: mystery, unrevealed matters; reversed: surface knowledge, among others."
+        },
+        "locator": "Part II §2, II; Part III §3, 2",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "静观与求证",
+          "en": "Observation and verification"
+        },
+        "uprightPrompt": {
+          "zh-CN": "哪些是事实，哪些只是直觉？还缺什么信息？",
+          "en": "What is fact, what is intuition, and what information is missing?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我是否把猜测当成知识？可以向哪里求证？",
+          "en": "Am I treating an assumption as knowledge? Where could I check it?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-3",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "皇后",
+        "en": "The Empress"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "十二星冠、金星盾、成熟谷物、球顶权杖。",
+          "en": "Twelve-star crown, Venus shield, ripening grain, globe-topped sceptre."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特强调生长丰饶与尘世乐园。",
+          "en": "Waite emphasizes fecundity and the earthly paradise."
+        },
+        "divination": {
+          "zh-CN": "正：丰饶、行动，也含疑惑；逆：澄清，也有摇摆的异说。",
+          "en": "Upright: fruitfulness and action, also doubt; reversed: clarification, alternatively vacillation."
+        },
+        "locator": "Part II §2, III; Part III §3, 3",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "照料与创造",
+          "en": "Care and creation"
+        },
+        "uprightPrompt": {
+          "zh-CN": "什么值得耐心培育？我能提供什么具体照料？",
+          "en": "What deserves patient cultivation, and what concrete care can I offer?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "照顾别人时，我是否忽略了自己的需要？",
+          "en": "Am I neglecting my needs while caring for others?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-4",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "皇帝",
+        "en": "The Emperor"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "公羊头王座、带环十字形权杖、左手球体。",
+          "en": "Ram-headed throne, ankh-like sceptre, globe in the left hand."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "王权被用于说明现实执行与思想统御。",
+          "en": "Kingship illustrates worldly execution and intellectual rule."
+        },
+        "divination": {
+          "zh-CN": "正：稳定、权威；逆：仁慈，也含阻碍、不成熟。",
+          "en": "Upright: stability, authority; reversed: compassion, also obstruction and immaturity."
+        },
+        "locator": "Part II §2, IV; Part III §3, 4",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "边界与责任",
+          "en": "Boundaries and responsibility"
+        },
+        "uprightPrompt": {
+          "zh-CN": "哪条清晰规则能让合作更可靠？",
+          "en": "Which clear rule would make cooperation more reliable?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "秩序是否变成控制？我可以让出哪一点空间？",
+          "en": "Has order become control? Where could I allow room?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-5",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "教皇",
+        "en": "The Hierophant"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "三重冠、三重十字权杖、交叉钥匙、两位跪拜者。",
+          "en": "Triple crown, triple-cross staff, crossed keys, two kneeling ministers."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "这里是制度化外显宗教，不等同于女祭司的隐秘教义。",
+          "en": "This is institutional, outward religion, distinct from the Priestess's inward teaching."
+        },
+        "divination": {
+          "zh-CN": "正：联盟，也含束缚；逆：和谐，也含过度好心、软弱。",
+          "en": "Upright: alliance, also servitude; reversed: concord, also over-kindness and weakness."
+        },
+        "locator": "Part II §2, V; Part III §3, 5",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "传统与学习",
+          "en": "Tradition and learning"
+        },
+        "uprightPrompt": {
+          "zh-CN": "哪些经验值得学习，哪些规则需要重新理解？",
+          "en": "Which lessons are worth learning, and which rules need rethinking?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我遵循规则是因为理解，还是害怕提出问题？",
+          "en": "Do I follow this rule from understanding or fear of questioning it?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-6",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "恋人",
+        "en": "The Lovers"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "太阳、翼状天使、两个人物、两棵树及蛇。",
+          "en": "Sun, winged figure, two people, two trees and serpent."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特借伊甸园讨论人间爱与宗教盟约；不能只改写成选择。",
+          "en": "Waite uses Eden to discuss human love and sacred covenant; choice alone is incomplete."
+        },
+        "divination": {
+          "zh-CN": "正：吸引、爱、美；逆：失败或计划不当。",
+          "en": "Upright: attraction, love, beauty; reversed: failure or ill-conceived plans."
+        },
+        "locator": "Part II §2, VI; Part III §3, 6",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "关系与价值",
+          "en": "Relationships and values"
+        },
+        "uprightPrompt": {
+          "zh-CN": "我希望这段合作或关系建立在什么价值上？",
+          "en": "Which values should support this relationship or partnership?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我说出的承诺与实际行动是否一致？",
+          "en": "Do my commitments match my actions?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-7",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "战车",
+        "en": "The Chariot"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "战车与两只斯芬克斯；文本称人物持出鞘剑。",
+          "en": "Chariot and two sphinxes; the text describes a drawn sword."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          },
+          {
+            "zh-CN": "文字写出鞘剑，但不可据此直接给常见RWS画稿添剑；需核对早期图版与版本差异。",
+            "en": "The text says drawn sword; do not add a sword to RWS artwork without checking early plates and edition differences."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特强调外在或理性征服不等于内在精神自由。",
+          "en": "External or intellectual victory does not, for Waite, ensure spiritual freedom."
+        },
+        "divination": {
+          "zh-CN": "正：胜利，也含傲慢与麻烦；逆：争执、失败。",
+          "en": "Upright: triumph, also presumption and trouble; reversed: dispute and defeat."
+        },
+        "locator": "Part II §2, VII; Part III §3, 7",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "方向与协调",
+          "en": "Direction and coordination"
+        },
+        "uprightPrompt": {
+          "zh-CN": "目标清楚吗？哪些不同需求需要协调？",
+          "en": "Is my goal clear, and which competing needs require coordination?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我是否为了赶路而忽略反馈？",
+          "en": "Am I ignoring feedback to keep moving?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-8",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "力量",
+        "en": "Strength"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "人物合拢狮口，以花链牵狮，头顶生命符号。",
+          "en": "Figure closing a lion's jaws, flower chain, sign of life overhead."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          },
+          {
+            "zh-CN": "本文把头顶符号指向教皇，疑有文字差异；保留问题，不当作女祭司或教皇图案要求。",
+            "en": "The passage refers its overhead symbol to the Hierophant. Preserve this textual discrepancy rather than turning it into an artwork requirement."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特强调神圣依靠而非普通自信；本体系编号VIII。",
+          "en": "Waite emphasizes divine reliance rather than ordinary self-confidence; numbered VIII here."
+        },
+        "divination": {
+          "zh-CN": "正：勇气、力量；逆：滥权、失和。",
+          "en": "Upright: courage and power; reversed: abuse of power and discord."
+        },
+        "locator": "Part II §2, VIII; Part III §3, 8",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "温和与坚定",
+          "en": "Gentleness and resolve"
+        },
+        "uprightPrompt": {
+          "zh-CN": "怎样不靠压迫也能坚持自己的边界？",
+          "en": "How can I hold a boundary without coercion?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我是在耐心面对，还是勉强自己忍受？",
+          "en": "Am I responding patiently or forcing myself to endure?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-9",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "隐者",
+        "en": "The Hermit"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "高处人物举灯，灯内有星。",
+          "en": "Figure on a height holding a lantern with a star."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特说这是已有所成、可为他人照路，并反对隔绝式解释。",
+          "en": "Waite presents attainment and a guiding beacon, rejecting an isolationist explanation."
+        },
+        "divination": {
+          "zh-CN": "正：谨慎，也含欺瞒；逆：隐藏、过度戒惧。",
+          "en": "Upright: prudence, also deception; reversed: concealment and unreasonable caution."
+        },
+        "locator": "Part II §2, IX; Part III §3, 9",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "独处与辨认",
+          "en": "Solitude and discernment"
+        },
+        "uprightPrompt": {
+          "zh-CN": "留出安静时间后，什么变得更清楚？",
+          "en": "What becomes clearer after some quiet time?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "独处是在滋养我，还是让我远离需要的支持？",
+          "en": "Is solitude restoring me or distancing me from needed support?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-10",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "命运之轮",
+        "en": "Wheel of Fortune"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "轮与字母、斯芬克斯、蛇、四角生灵。",
+          "en": "Wheel and letters, sphinx, serpent, four corner creatures."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特用轮讲流变、用斯芬克斯讲稳定，并否认埃及起源推断。",
+          "en": "The wheel signifies flux and the sphinx stability; Egyptian imagery is not an origin claim."
+        },
+        "divination": {
+          "zh-CN": "正：命运、幸运；逆：增加、过剩。",
+          "en": "Upright: fortune; reversed: increase and excess."
+        },
+        "locator": "Part II §2, X; Part III §3, 10",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "变化与应对",
+          "en": "Change and response"
+        },
+        "uprightPrompt": {
+          "zh-CN": "哪些变化无法控制，哪些回应由我决定？",
+          "en": "Which changes are beyond me, and which responses can I choose?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我是否在等待运气，而没有做可以做的准备？",
+          "en": "Am I waiting for luck instead of preparing where I can?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-11",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "正义",
+        "en": "Justice"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "人物坐于柱间；此段沿用传统图式。",
+          "en": "Figure seated between pillars; this passage invokes traditional imagery."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          },
+          {
+            "zh-CN": "天平与剑等图像尚未在本轮所读段落中独立核验。",
+            "en": "Scales, sword and other image details have not been independently verified in this pass."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特区分行为后果的道德公正与神学中的拣选。",
+          "en": "Waite distinguishes moral justice according to conduct from theological election."
+        },
+        "divination": {
+          "zh-CN": "正：公正、正直；逆：偏见、过严、法律纠纷。",
+          "en": "Upright: equity and probity; reversed: bias, severity and legal complications."
+        },
+        "locator": "Part II §2, XI; Part III §3, 11",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "事实与责任",
+          "en": "Facts and responsibility"
+        },
+        "uprightPrompt": {
+          "zh-CN": "我依据哪些事实判断？是否考虑了各方处境？",
+          "en": "Which facts support my judgment, and have I considered each perspective?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我是否对自己或他人采用了不同标准？",
+          "en": "Am I applying different standards to myself and others?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-12",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "倒吊人",
+        "en": "The Hanged Man"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "有叶的活木、交叉腿、头部光环、平静面容。",
+          "en": "Living leafy wood, crossed legs, halo, calm expression."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特明确说是暂停中的生命而非死亡或单纯受难。",
+          "en": "Waite stresses suspended life, not death or simple martyrdom."
+        },
+        "divination": {
+          "zh-CN": "正：辨识、牺牲；逆：自私，也含群体、政体。",
+          "en": "Upright: discernment and sacrifice; reversed: selfishness, also the crowd and body politic."
+        },
+        "locator": "Part II §2, XII; Part III §3, 12",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "暂停与换位",
+          "en": "Pause and perspective"
+        },
+        "uprightPrompt": {
+          "zh-CN": "如果暂缓行动，我能看到什么不同角度？",
+          "en": "What different perspective could emerge if I pause?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "等待还有价值吗？什么信息会让我重新行动？",
+          "en": "Is waiting still useful? What information would help me act again?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-13",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "死神",
+        "en": "Death"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "骑者持黑旗与玫瑰，没有可见武器，双柱间太阳。",
+          "en": "Rider with black rose-banner, no visible weapon, sun between pillars."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "原典既论转变也涉及死亡，不能说只谈新开始。",
+          "en": "The source treats transformation and mortality, not only new beginnings."
+        },
+        "divination": {
+          "zh-CN": "正：结束、死亡等；逆：停滞。仅历史说明，不预测生死。",
+          "en": "Upright: endings and mortality; reversed: inertia. History, not a death prediction."
+        },
+        "locator": "Part II §2, XIII; Part III §3, 13",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "结束与调整",
+          "en": "Endings and adjustment"
+        },
+        "uprightPrompt": {
+          "zh-CN": "什么已不再适合我？可以怎样稳妥调整？",
+          "en": "What no longer fits, and how could I adjust safely?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "面对变化，我需要时间、支持，还是更小的行动？",
+          "en": "Facing change, do I need time, support, or a smaller action?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-14",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "节制",
+        "en": "Temperance"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "有翼天使在两杯间倾注，一足在地一足在水。",
+          "en": "Winged angel pouring between cups, one foot on earth and one on water."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特强调精神与物质性质的调和，人物不限定性别。",
+          "en": "Waite describes harmonizing psychic and material natures; the figure is not gender-bound."
+        },
+        "divination": {
+          "zh-CN": "正：节用、管理；逆：宗教事务，也含不协调。",
+          "en": "Upright: economy and management; reversed: religious matters, also disunion."
+        },
+        "locator": "Part II §2, XIV; Part III §3, 14",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "调整与节奏",
+          "en": "Adjustment and rhythm"
+        },
+        "uprightPrompt": {
+          "zh-CN": "哪一种小幅调整能让生活更可持续？",
+          "en": "Which small adjustment would make my routine more sustainable?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我是在寻找平衡，还是勉强维持不合适的组合？",
+          "en": "Am I finding balance or forcing an unsuitable combination?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-15",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "恶魔",
+        "en": "The Devil"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "有角翼状形象、倒置五芒星、向下火炬、两条链与两个人物。",
+          "en": "Horned winged figure, inverted pentagram, downward torch, two chains and people."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特讨论物质束缚，但不把被束缚者的处境视为永远不变。",
+          "en": "Waite discusses material bondage without making it everlasting."
+        },
+        "divination": {
+          "zh-CN": "正：暴烈、强力；逆：软弱等。",
+          "en": "Upright: vehemence and force; reversed: weakness, among other terms."
+        },
+        "locator": "Part II §2, XV; Part III §3, 15",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "依附与选择",
+          "en": "Attachment and choice"
+        },
+        "uprightPrompt": {
+          "zh-CN": "什么习惯正在缩小我的选择？我能寻求什么支持？",
+          "en": "Which habit narrows my choices, and what support could help?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我是否把复杂困难都归咎于意志不够？",
+          "en": "Am I blaming a complex difficulty solely on willpower?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-16",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "高塔",
+        "en": "The Tower"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "塔与两位受难人物；详细图式需另查图版。",
+          "en": "Tower and two suffering figures; detailed imagery needs plate review."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特侧重错误教义之屋的崩解，不仅是普通建筑倒塌。",
+          "en": "Waite emphasizes the collapse of a house of false doctrine, not merely a building."
+        },
+        "divination": {
+          "zh-CN": "正：突发灾变、困境；逆：较轻版本，也含压制。",
+          "en": "Upright: unexpected calamity and distress; reversed: a lesser form, also oppression."
+        },
+        "locator": "Part II §2, XVI; Part III §3, 16",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "检验与重建",
+          "en": "Reassessment and rebuilding"
+        },
+        "uprightPrompt": {
+          "zh-CN": "当原有假设不再成立，最先需要保护什么？",
+          "en": "If an assumption fails, what needs protecting first?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我可以在有支持的情况下检查哪一个不稳固的安排？",
+          "en": "Which unstable arrangement can I examine with support?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-17",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "星星",
+        "en": "The Star"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "一大七小八角星、两水罐、水与土地、树鸟。",
+          "en": "One large and seven smaller eight-pointed stars, two ewers, water, land, tree and bird."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特讨论生命之水与精神恩赐，不仅是日常希望。",
+          "en": "Waite discusses waters of life and spiritual gifts, beyond everyday hope."
+        },
+        "divination": {
+          "zh-CN": "正：既有失落，也有希望的异说；逆：傲慢、无力。",
+          "en": "Upright: loss, alternatively hope; reversed: arrogance and impotence."
+        },
+        "locator": "Part II §2, XVII; Part III §3, 17",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "恢复与希望",
+          "en": "Recovery and hope"
+        },
+        "uprightPrompt": {
+          "zh-CN": "什么现实支持能让我恢复一点力量？",
+          "en": "Which practical support could help restore some energy?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "期待是否太高？我能否允许恢复慢一点？",
+          "en": "Are my expectations too high? Can I allow recovery to be gradual?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-18",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "月亮",
+        "en": "The Moon"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "月、双塔间道路、犬狼、水中上岸的生物。",
+          "en": "Moon, path between towers, dog and wolf, creature emerging from water."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特以反射光与未知讲想象和恐惧。",
+          "en": "Waite uses reflected light and the unknown to discuss imagination and fear."
+        },
+        "divination": {
+          "zh-CN": "正：危险、错误；逆：不稳定及较轻的错误。",
+          "en": "Upright: danger and error; reversed: instability and lesser error."
+        },
+        "locator": "Part II §2, XVIII; Part III §3, 18",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "感受与求证",
+          "en": "Feelings and verification"
+        },
+        "uprightPrompt": {
+          "zh-CN": "眼下哪些是感受，哪些事实已经得到证实？",
+          "en": "What am I feeling, and which facts have been confirmed?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我是否因不确定而急于得出结论？",
+          "en": "Am I rushing to a conclusion because uncertainty feels uncomfortable?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-19",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "太阳",
+        "en": "The Sun"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "白马上的孩童、红旗、围墙花园与太阳。",
+          "en": "Child on a white horse, red banner, walled garden and sun."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特把直接的精神光明与月亮的反射光相区别。",
+          "en": "Waite distinguishes direct spiritual light from the Moon's reflected light."
+        },
+        "divination": {
+          "zh-CN": "正：幸福、满足；逆：同类但程度较小。",
+          "en": "Upright: happiness and contentment; reversed: the same to a lesser degree."
+        },
+        "locator": "Part II §2, XIX; Part III §3, 19",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "清晰与活力",
+          "en": "Clarity and vitality"
+        },
+        "uprightPrompt": {
+          "zh-CN": "什么让我真切感到有活力？怎样把它纳入日常？",
+          "en": "What genuinely energizes me, and how can I include it in daily life?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "我是否为了表现乐观而忽略疲惫？",
+          "en": "Am I overlooking fatigue to appear optimistic?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-20",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "审判",
+        "en": "Judgement"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "天使吹带十字旗的号角，多位人物从墓中起身。",
+          "en": "Angel with cross-bannered trumpet; several figures rising from tombs."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特把内在回应与复苏转变联系起来，不只是外部裁判。",
+          "en": "Waite links inward response with transformative awakening, not only external judgment."
+        },
+        "divination": {
+          "zh-CN": "正：更新、结果；逆：软弱，也含审议和决定。",
+          "en": "Upright: renewal and outcome; reversed: weakness, also deliberation and decision."
+        },
+        "locator": "Part II §2, XX; Part III §3, 20",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "回顾与回应",
+          "en": "Review and response"
+        },
+        "uprightPrompt": {
+          "zh-CN": "回顾经历，我愿意对什么作出新的回应？",
+          "en": "Looking back, what would I like to respond to differently?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "反省是否变成自责？我能从中提炼什么具体学习？",
+          "en": "Has reflection become self-blame? What concrete lesson can I take?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    },
+    {
+      "id": "major-21",
+      "system": "RWS",
+      "names": {
+        "zh-CN": "世界",
+        "en": "The World"
+      },
+      "iconography": {
+        "textChecked": {
+          "zh-CN": "本段未细列图像，援引前文；完整图式仍待核验。",
+          "en": "This passage refers back rather than detailing the image; full iconography remains pending."
+        },
+        "imageReview": "pending",
+        "pendingChecks": [
+          {
+            "zh-CN": "早期图版与最终画稿仍待对照，文字审校不能证明画面颜色、方位、数量准确。",
+            "en": "Early plates and final artwork remain unchecked; text review does not certify visual colours, positions or counts."
+          },
+          {
+            "zh-CN": "本段没有独立列出花环、人物或四角图案；这些不标为本轮已核验。",
+            "en": "This passage does not independently enumerate wreath, figure or corner motifs; they are not marked verified here."
+          }
+        ]
+      },
+      "historical": {
+        "symbolism": {
+          "zh-CN": "韦特讨论宇宙完成与精神圆满，并非单纯旅行符号。",
+          "en": "Waite discusses cosmic completion and spiritual fulfillment, not merely travel."
+        },
+        "divination": {
+          "zh-CN": "正：成功、旅程；逆：停滞、固定。",
+          "en": "Upright: success and journey; reversed: stagnation and fixity."
+        },
+        "locator": "Part II §2, XXI; Part III §3, 21",
+        "isCompleteTranslation": false
+      },
+      "modern": {
+        "kind": "original_reflection_not_prediction",
+        "theme": {
+          "zh-CN": "整合与完成",
+          "en": "Integration and completion"
+        },
+        "uprightPrompt": {
+          "zh-CN": "这一阶段的经验如何汇成可以带走的收获？",
+          "en": "How can this stage's experiences become lessons I carry forward?"
+        },
+        "reversedPrompt": {
+          "zh-CN": "还有什么需要收尾，而不是急着开始下一轮？",
+          "en": "What needs closure before I begin another cycle?"
+        },
+        "reversalNote": {
+          "zh-CN": "逆位是另一个反思角度，不是坏运气，也不等于历史逆位释义。",
+          "en": "Reversal is another reflective angle, not bad luck or a reproduction of historical meanings."
+        }
+      },
+      "review": {
+        "primaryText": "checked",
+        "historicalSummary": "checked_selective",
+        "bilingual": "draft_reviewed",
+        "earlyPlateVisual": "pending",
+        "artwork": "not_reviewed",
+        "overall": "partially_audited"
+      },
+      "sources": [
+        "waite-1922-ii",
+        "waite-1922-iii"
+      ],
+      "limitations": {
+        "zh-CN": "简短节选式摘要，省略部分旧占义，不能作为完整释义词典；历史观念不构成事实或预测依据。",
+        "en": "Selective brief summary omitting some historical meanings, not a complete dictionary; historical beliefs are not evidence or predictions."
+      }
+    }
+  ],
+  "manifest": [
+    {
+      "id": "major-0",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-1",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-2",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-3",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-4",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-5",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-6",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-7",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-8",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-9",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-10",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-11",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-12",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-13",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-14",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-15",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-16",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-17",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-18",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-19",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-20",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "major-21",
+      "review": "primary_text_checked_image_pending"
+    },
+    {
+      "id": "wands-1",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "wands-2",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "wands-3",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "wands-4",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "wands-5",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "wands-6",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "wands-7",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "wands-8",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "wands-9",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "wands-10",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "wands-11",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "wands-12",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "wands-13",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "wands-14",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-1",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-2",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-3",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-4",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-5",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-6",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-7",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-8",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-9",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-10",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-11",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-12",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-13",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "cups-14",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-1",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-2",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-3",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-4",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-5",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-6",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-7",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-8",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-9",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-10",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-11",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-12",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-13",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "swords-14",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-1",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-2",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-3",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-4",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-5",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-6",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-7",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-8",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-9",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-10",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-11",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-12",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-13",
+      "review": "not_in_this_batch"
+    },
+    {
+      "id": "pentacles-14",
+      "review": "not_in_this_batch"
+    }
+  ]
+}
