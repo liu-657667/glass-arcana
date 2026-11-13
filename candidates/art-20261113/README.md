@@ -57,3 +57,7 @@ A later fresh generation produced a real saved PNG and was transferred through L
 ## QA adoption decision (later 2026-11-13)
 
 Ace of Swords v2 is now installed on the QA branch, with v1 backed up in `ace-of-swords-v1-backup/`. Judgement v2 is not installed: title-panel consistency and rear-child clarity remain unresolved. Earlier non-installation statements above are historical. See `docs/audits/two-candidate-adoption-20261113.md`.
+
+## Judgement v3 adopted on QA
+
+Later v3 corrects both v2 problems: no added title panels, and clearly childlike rear center figure. It is now installed in the QA runtime with v1 preserved byte-for-byte and v2 retained as historical candidate. See `judgement-v3/README.md`. This supersedes the earlier statement that runtime still uses the three-person v1, not the v2 rejection decision.

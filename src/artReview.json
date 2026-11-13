@@ -116,9 +116,9 @@
   },
   "major-20": {
     "status": "adapted_candidate",
-    "noteZh": "天使吹号/白旗红十字/3前景人物3棺明确；全着衣，未画经典背景额外人群。",
-    "noteEn": "Clothed adaptation; additional distant figures omitted.",
-    "sha256": "2b211d1200c79d73f6e61649abb2920c5340025c64a869753d75dd3a018f4e04",
+    "noteZh": "2026-11-13 采用 v3：保留无字哥特边框、天使号角与白旗红十字；前后三人组各含一名儿童，共六人六棺，已检查原图与小图。旧图已备份；原创改编，不宣称历史图逐像素复刻。",
+    "noteEn": "2026-11-13 v3 adopted: text-free Gothic frame, angel/trumpet and red cross on white flag retained. Two groups of three, each with a child: six figures and six coffins checked at full and small sizes. Old art backed up; original adaptation, not a facsimile.",
+    "sha256": "ce4688e2f8e11096e55f4a485f135dcbfdf2ce72db8a4258eac9d82d8baa4046",
     "installed": true
   },
   "major-21": {

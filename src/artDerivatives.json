@@ -435,20 +435,20 @@
     }
   },
   "major-20": {
-    "originalSha256": "2b211d1200c79d73f6e61649abb2920c5340025c64a869753d75dd3a018f4e04",
-    "originalBytes": 3920362,
+    "originalSha256": "ce4688e2f8e11096e55f4a485f135dcbfdf2ce72db8a4258eac9d82d8baa4046",
+    "originalBytes": 3772325,
     "variants": {
       "320": {
-        "bytes": 95402,
-        "sha256": "ad95c947fac7614045d40cf6f247f67146e3700b8db3aa58856fc54a6adef952"
+        "bytes": 95554,
+        "sha256": "a34ff4f74375b446b0b4885bc49664923cc1f81612a4eb2b67a777aa336675af"
       },
       "640": {
-        "bytes": 362420,
-        "sha256": "5b4f6909e52241c92b8fd7989eb118730ed16993bac1072f247a598571086ba6"
+        "bytes": 360180,
+        "sha256": "f71a23f60635c8163d4c02573a2af8d874d184bca13175e4b534755a8470ed00"
       },
       "1024": {
-        "bytes": 913714,
-        "sha256": "99f1d431adb379407884e3fcc3557f604a6fefee12bf3a1f807aec3eecd7cd97"
+        "bytes": 890684,
+        "sha256": "8aed7cb900126a919cfba445b5332cd8c74d37b650911b2fc29d78f4b9c449bd"
       }
     }
   },
