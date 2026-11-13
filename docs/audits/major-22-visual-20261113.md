@@ -36,9 +36,9 @@
 |9 隐者|灰袍、六角星灯、杖、雪峰|直杖改弯头木杖，灯扩大，新增山脉。|
 |10 命运轮|TARO位置、四希伯来字形、八向结构、有翼持书生物、蛇/Anubis/持剑狮身像|狮身像增加翼；水星上方延伸辐条缺失，姿势剑向/字形笔势改编；希伯来书法未终审。|
 
-## major-11–21：分开记录比对与仅本图检查
+## major-11–21：首轮记录（14–21已由下方补充对照更新）
 
-11–13实际查看参考JPEG；14–21参考文件页可读但参考图片请求403，未绕过限制，因此不能声称完整22张参考像素比对已完成。
+11–13实际查看参考JPEG；14–21参考文件页可读但参考图片请求403，未绕过限制，当时不能声称完整22张参考像素比对已完成；随后通过独立Sacred Texts公开原典扫描补足，见末尾。
 
 | ID | 状态 | 本图可见 | 差异/待核 |
 |---|---|---|---|
@@ -56,7 +56,7 @@
 
 ## 后续处理原则
 
-可确认的构图差异先公开记录，不自动当成必须重绘的bug。优先评估：战车符号替换、皇后星冠布局、魔术师蛇带闭合不确定、倒吊人镜像腿姿、死神旗花/人物姿态、命运轮额外双翼。是否改图会影响原创设计，需单独决策。其余8张参考像素比对、全分辨率微小符号和整套权利终审仍待完成。UI审查状态未提升。
+可确认的构图差异先公开记录，不自动当成必须重绘的bug。优先评估：战车符号替换、皇后星冠布局、魔术师蛇带闭合不确定、倒吊人镜像腿姿、死神旗花/人物姿态、命运轮额外双翼。是否改图会影响原创设计，需单独决策。剩余8张参考像素比对现已补足；全分辨率微小符号和整套权利终审仍待完成。UI审查状态未提升。
 
 ## 固定本次检查对象与参考页
 
@@ -86,3 +86,33 @@
 |19|`24f1e250fa7b15e2984aa5540112a226300e9e5426a1c08ce94a73c0d2254ffb`|[Commons](https://commons.wikimedia.org/wiki/File:RWS_Tarot_19_Sun.jpg)|
 |20|`2b211d1200c79d73f6e61649abb2920c5340025c64a869753d75dd3a018f4e04`|[Commons](https://commons.wikimedia.org/wiki/File:RWS_Tarot_20_Judgement.jpg)|
 |21|`c358eddefa5fffed7cb0050533d9ef2be336e8abdb32e181d5a42874f28f3b44`|[Commons](https://commons.wikimedia.org/wiki/File:RWS_Tarot_21_World.jpg)|
+
+## 补充：14–21与1911原典数字扫描的实际像素对照
+
+8张参考JPG和本项目相应640px WebP均逐张实际查看，不再仅本图检查。未绕过Commons的403；改用独立公开来源。
+
+[原典标题/版权页](https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/start-reading)注明London W.Rider [1911]、A.E.Waite著、Pamela Colman Smith绘，J.B.Hare于2000/2003扫描校对，并说明文字及插图在美国公版。这不是现代上色版或全球权利保证。章节内Click to enlarge链接指向下表JPG；约300px宽，只适合核心构图对照，不适合微小字形终审。参考只留作临时研究，不入仓、不打包。
+
+|牌|比对后明确观察|仍未确认/设计判断|
+|---|---|---|
+|14 节制|翼/额日/胸方三角/双杯/水陆脚保留；本图高杯左低杯右，参考相反，水陆脚、道路冠花亦换侧|左右构图改编；胸前细字不作合格结论。|
+|15 恶魔|羊角蝠翼倒五星火炬链圈保留；人物性别左右对调、增加衣装；参考女性葡萄簇尾端变单圆果|葡萄变单果为明确符号差异，是否改图需设计决定。|
+|16 高塔|雷击飞冠燃塔两坠人保留；不规则yod样黄点改为规则火滴并混有砖石|本轮未完成可靠火滴计数，不标22滴通过，不把碎石火焰计入。|
+|17 星星|1大7小星、双壶树鸟水陆保留；裸身低头改衣着仰望，池水树鸟左右对调；本图可辨5分流|低分辨率参考不作细分流数量终审。|
+|18 月亮|双塔犬狼道路甲壳动物保留；月面参考朝左本图朝右；本图15滴呈5×3|参考黄点散布且为弯曲yod样形，非规则泪滴；数量可数不等于布局形态原样。|
+|19 太阳|面孔太阳白马孩童红旗墙和4向日葵保留；裸童改着衣，马头近正面朝下改侧身朝右|服装姿态构图改编。|
+|20 审判|天使号角十字旗复起者棺山水保留；参考前景3人+远景3人共6，本图仅3人3棺|省略远景3人为明确内容简化，不能宣称人数与原典一致，补回须设计决定。|
+|21 世界|椭圆环上下红结双杖四角四象位置保留；裸身飘带改紫色全裙并增装饰|位置未见明显错置，但人体衣装装饰为改编，非微细节终审。|
+
+### 补充参考文件与SHA-256
+
+- 14: [章节](https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/xiv-temperance) · [参考图](https://scrape.sacred-texts.com/tarot/pkt/img/ar14.jpg) · SHA256 `f5650fb52cb3e4a378b48c9c93edbd94b7b1101ee37c1ae2075b6299cb72d4a1`
+- 15: [章节](https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/xv-the-devil) · [参考图](https://scrape.sacred-texts.com/tarot/pkt/img/ar15.jpg) · SHA256 `f3616bdd45c1fbf4dd7cc5fccaf4ab1925ab694f0ccfadb07bdc6dd19a2b9bde`
+- 16: [章节](https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/xvi-the-tower) · [参考图](https://scrape.sacred-texts.com/tarot/pkt/img/ar16.jpg) · SHA256 `0e5b2ad2b19834838c4ffb5d3dd2d743f20f6d64d9bf62938ffa708befeca49f`
+- 17: [章节](https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/xvii-the-star) · [参考图](https://scrape.sacred-texts.com/tarot/pkt/img/ar17.jpg) · SHA256 `3116d36712383964d61cad7b5531a7621642654c8e29feb21c09efca0dc16cb6`
+- 18: [章节](https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/xviii-the-moon) · [参考图](https://scrape.sacred-texts.com/tarot/pkt/img/ar18.jpg) · SHA256 `131535eb0e07b1627ba638d38d4c6edcea72faefce071c0d2a22b1579103ec19`
+- 19: [章节](https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/xix-the-sun) · [参考图](https://scrape.sacred-texts.com/tarot/pkt/img/ar19.jpg) · SHA256 `e4548dffccafaa5a30685c9fef6e891b37bec97ac60368b1ecf9662a47a2ac44`
+- 20: [章节](https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/xx-the-last-judgement) · [参考图](https://scrape.sacred-texts.com/tarot/pkt/img/ar20.jpg) · SHA256 `2b15b96595eb072908dd8ada7fface0819117c34c0d967bc2c656b5efbbb62ce`
+- 21: [章节](https://sacred-texts.com/book/the-pictorial-key-to-the-tarot/xxi-the-world) · [参考图](https://scrape.sacred-texts.com/tarot/pkt/img/ar21.jpg) · SHA256 `1aeb2387a01c86bf24ad4c9552bd60773286b28e464b0eb5e4c1033cab2ddc77`
+
+结论：22张均有专项参考像素对照记录，但不是全部符号、历史版次和法律清权终审。所有现有候选及pending状态保留，没有重绘。
