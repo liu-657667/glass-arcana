@@ -77,8 +77,10 @@ try {
       await expect(art).toBeVisible();
       await expect.poll(() => art.evaluate(img => img.complete && img.naturalWidth > 0)).toBe(true);
       assert((await art.evaluate(img => img.currentSrc)).includes(id));
+      await art.evaluate(async img => { await img.decode(); await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))); });
+      await page.waitForTimeout(350); // allow responsive source and modal transition to paint before visual evidence
       assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
-      await page.screenshot({path: fileURLToPath(new URL(`${id}-installed-${width}.png`, artifacts)), fullPage: true});
+      await page.screenshot({path: fileURLToPath(new URL(`${id}-installed-${width}.png`, artifacts)), fullPage: false});
     }
     await page.keyboard.press('Escape');
     await page.setViewportSize({ width: 1440, height: 1100 });
