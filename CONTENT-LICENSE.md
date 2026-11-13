@@ -15,13 +15,13 @@ License page: https://creativecommons.org/licenses/by/4.0/
 
 > Glass Arcana contributors — Glass Arcana original study notes and icons, CC BY 4.0. Changes: [describe your changes].
 
-Include a link to this project's source when one is available, the license link and retained attribution/source notices. No repository URL is invented before publication. Summaries are selective first-pass study material, not a promise of historical accuracy or predictive power.
+Include a link to this project's source when one is available, the license link and retained attribution/source notices. Project source: https://github.com/liu-657667/glass-arcana . Summaries are selective first-pass study material, not a promise of historical accuracy or predictive power.
 
 ## Earlier CC0 notices / 先前 CC0 声明
 
 Earlier local drafts stated CC0 for original notes in `src/cards.ts` and `src/cardEnglish.ts`. Valid CC0 dedications/permissions already granted cannot simply be revoked by applying this notice. Recipients of material already validly offered under CC0 retain those rights. This notice does not retroactively require attribution for those copies or remove third-party/public-domain rights. New original contributions may be offered under CC BY 4.0 to the extent contributors hold the rights; unchanged previously dedicated material does not regain exclusivity.
 
-先前本地草稿有 CC0 声明。若相关内容已有效以 CC0 提供，后续不能靠更换文件撤销；旧接收者权利保留。当前无 Git 历史与完整分发记录，不能声称已证明从未发生过有效 CC0 授权。此说明保留兼容权利，不将 CC0 旧内容追溯强制改成必须署名。
+先前本地草稿有 CC0 声明。若相关内容已有效以 CC0 提供，后续不能靠更换文件撤销；旧接收者权利保留。当前仓库历史不等于完整的早期草稿分发记录，不能声称已证明从未发生过有效 CC0 授权。此说明保留兼容权利，不将 CC0 旧内容追溯强制改成必须署名。
 
 ## Exclusions / 排除
 
