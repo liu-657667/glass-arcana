@@ -65,6 +65,22 @@ try {
 
   await page.getByRole('button', { name: '78 张牌', exact: true }).click();
   await expect(page.locator('.mini-card')).toHaveCount(78);
+  // Art adoption regression: test the installed asset, not a candidate preview.
+  await page.getByLabel('搜索牌名', { exact: true }).fill('宝剑王牌');
+  await expect(page.locator('.mini-card')).toHaveCount(1);
+  await page.locator('.mini-card').click();
+  await expect(page.getByRole('dialog')).toBeVisible();
+  for (const width of [390, 320]) {
+    await page.setViewportSize({ width, height: 844 });
+    const art = page.getByRole('dialog').locator('img').first();
+    await expect(art).toBeVisible();
+    await expect.poll(() => art.evaluate(img => img.complete && img.naturalWidth > 0)).toBe(true);
+    assert.match(await art.evaluate(img => img.currentSrc), /swords-1/);
+    assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+    await page.screenshot({path: fileURLToPath(new URL(`ace-installed-${width}.png`, artifacts)), fullPage: true});
+  }
+  await page.keyboard.press('Escape');
+  await page.setViewportSize({ width: 1440, height: 1100 });
   await page.getByLabel('搜索牌名', { exact: true }).fill('死神');
   await expect(page.locator('.mini-card')).toHaveCount(1);
   await page.locator('.mini-card').click();
