@@ -1,0 +1,14 @@
+{
+  "sourceSha256": "4e6424f1105d4dc0df059a9ee90301110089559f197ddd4677fdb90a7b9a358f",
+  "command": "magick source.png -resize WIDTHx -quality 90 destination.webp",
+  "files": {
+    "judgement-320.webp": {
+      "sha256": "39d7237466293c94c47d215a637d4d3af3f85edf53b9d409e8f65d7ebf7a2959",
+      "bytes": 106506
+    },
+    "judgement-640.webp": {
+      "sha256": "6d3d1346debb53691b8f4c43f685a0730a052700e0a3daab3c4dbd8aaeaa0db7",
+      "bytes": 386176
+    }
+  }
+}

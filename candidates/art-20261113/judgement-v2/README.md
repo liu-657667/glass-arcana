@@ -28,3 +28,9 @@ AI-generated original adaptation, not a bundled historical scan. Follow the proj
 ## Import verification
 
 Node 24.22.1: `npm run check` passed (37 unit + 22 server tests, type check, production build and complete runtime-license notices). `git diff --check` passed. No tracked files under `public/` or `src/` changed; the owner’s separate original checkout remained clean on main. These are offline regression checks, not browser or paid API acceptance.
+
+## Follow-up: derivative and browser inspection
+
+320 × 480 and 640 × 960 WebP derivatives were generated non-destructively with ImageMagick, quality 90; their hashes and byte sizes are in `derivatives.json`. Both were decoded successfully and loaded in a dedicated local Chrome preview. DOM image checks confirmed complete=true, expected natural dimensions and displayed widths 320/640. Screenshots of the 320 image and scrolled 640 image were actually inspected. Six figures/coffins, trumpet, red cross on white flag, XX and JUDGEMENT remain readable at 320px; facial/hand microdetails do not become certified by this pass. At 640px the distant middle figure remains adult-looking, not clearly a child. No new rendering blocker was observed.
+
+This supersedes the earlier untested-derivative statement above, but does NOT certify full application integration, Safari, phone viewport behavior or historical identity. Preview page: `preview.html`; serve this folder locally to inspect. The temporary localhost-only server and dedicated browser tab were closed after checking. Requests for both derivatives and HTML returned HTTP 200; the preview's absent favicon returned an unrelated 404. All production art remains unchanged.
