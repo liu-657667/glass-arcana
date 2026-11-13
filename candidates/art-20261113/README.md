@@ -41,3 +41,11 @@ The two minor cards and actual historical reference pixels have now been inspect
 ## New Judgement artifact imported — 2026-11-13
 
 A fresh generated candidate was delivered as a ZIP and extracted by the owner, then copied byte-for-byte into `judgement-v2/`. It is **not recovery of the earlier unsaved image**, and the earlier edit prompt is not claimed as this image's exact generation prompt. See [candidate inspection](judgement-v2/README.md). The application still uses the existing three-person image.
+
+## Ace of Swords: new displayed study, persistence still unverified
+
+On 2026-11-13 the built-in image generator edited the actual installed `swords-1.png` as a fresh candidate. The displayed result was inspected: one sword/cloud-hand/crown, olive on viewer-left, palm on viewer-right, exactly six separate gold yod-like marks (three each side) above the hilt. The gold Gothic border and mountains remain. This is a visual first pass, not a saved or installed asset; derivatives/browser and independent review remain pending.
+
+The tool returned an image/data result without a local output hint. No newly saved file was found in the selected Mac's default generated-images directory. No data-URI/base64 terminal import or alternate transfer workaround was attempted, given earlier review rejections. No API fallback was used. Do not infer a saved filename/hash from the displayed image.
+
+New edit specification: preserve the complete 2:3 gold border, single vertical sword, single cloud-emerging hand, single crown, mountains and glass texture; move olive branch to viewer-left and palm to viewer-right without mirroring the rest; add exactly six separate small golden yod-like curved flame marks in blue space alongside the blade above the hilt, three per side, not merged with leaves/crown/seams; no added swords/hands/crowns/faces/text. Original RWS-inspired adaptation, not a facsimile. Input was the installed `public/art/swords-1.png` (hash recorded in the two-card audit).
