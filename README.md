@@ -1,6 +1,6 @@
 # 琉璃秘典 · Glass Arcana
 
-个人免费学习项目，完整 Rider–Waite–Smith 78 张身份结构，中英双语，哥特彩绘玻璃候选图。无会员、广告或遥测。**v0.1.0 源码发布候选：原创改编塔罗学习与反思工具，不是最终成品牌组或全面核校的知识库。** 发行状态以仓库标签 / Release 为准；不包含公网 AI 服务部署。当前验收和重新实现范围见 `docs/REIMPLEMENTATION_STATUS.md`。
+个人免费学习项目，完整 Rider–Waite–Smith 78 张身份结构，中英双语，哥特彩绘玻璃候选图。无会员、广告或遥测。**v0.1.0 正式源码发布：原创改编塔罗学习与反思工具，不是最终成品牌组或全面核校的知识库。** 发行状态以仓库标签 / Release 为准；不包含公网 AI 服务部署。当前验收和重新实现范围见 `docs/REIMPLEMENTATION_STATUS.md`。
 
 ## 运行 / Run
 
@@ -76,7 +76,7 @@ Inspired by ziwei-doushu's complete-system approach, provenance and optional con
 
 ## 发布边界 / Release gate
 
-阅读 `docs/RELEASE_FUNCTIONAL_QA.md` 与 `docs/RELEASE_CHECKLIST.md`。当前为公开源码预览，不是正式发布版本，也未部署网站。Chrome 已完成记录中的功能检查；Safari 验收范围以对应日期报告为准，不以早期冒烟记录代表所有后续检查。Firefox 与真实 iPhone 测试按所有者要求暂缓，不能宣称已通过。完整读屏、公网性能、全部牌面历史细节和权利审查均未完成。命运轮符号专项复核已通过，仍保留原创改编差异。初始源码采用白名单导出并检查常见凭据模式，不能据此保证不存在任何潜在秘密；后续提交仍需独立检查。
+阅读 `docs/RELEASE_FUNCTIONAL_QA.md` 与 `docs/RELEASE_CHECKLIST.md`。当前为 v0.1.0 正式源码版，未部署网站或公网多用户 AI 服务。Chrome 已完成记录中的功能检查；Safari 验收范围以对应日期报告为准，不以早期冒烟记录代表所有后续检查。Firefox 与真实 iPhone 测试按所有者要求暂缓，不能宣称已通过。完整读屏、公网性能、全部牌面历史细节和权利审查均未完成。命运轮符号专项复核已通过，仍保留原创改编差异。初始源码采用白名单导出并检查常见凭据模式，不能据此保证不存在任何潜在秘密；后续提交仍需独立检查。
 
 ### 第三方运行时代码 / Bundled third-party code
 构建根据实际 Rollup 非空输出模块生成 `THIRD_PARTY_NOTICES.md`，并将上游完整 LICENSE/NOTICE 原样放入 `dist/licenses/`，构建结束自动逐字核验，不改变第三方条款。当前渲染代码包含 Vue 3.5.45 的 runtime-dom/runtime-core/reactivity/shared，以及 Vite 7.3.8 modulepreload 与 @vitejs/plugin-vue 6.0.10 export-helper 虚拟模块；未知非空虚拟模块会阻止构建，须先核查来源；Vue 顶层入口自身无保留代码，但其运行时包的完整 MIT 署名均随附。发布 dist 时不得遗漏通知目录。
