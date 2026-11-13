@@ -34,3 +34,5 @@ The original PNG was visually inspected again. New 320 × 480 and 640 × 960 Web
 This supersedes the earlier untested-derivative statement, not the limits on historical exactness or full microdetail review. The candidate is still outside production; no application integration, Safari or phone-viewport certification is claimed. The local preview server and dedicated tab were closed after validation.
 
 `npm run check` passed: 37 unit + 22 server tests, type check, production build and complete runtime-license checks. No API was used. Original `public/art/swords-1.png` and runtime manifests remain unchanged.
+
+Later QA decision: adopted in QA runtime after original/candidate and 320px review. See `docs/audits/two-candidate-adoption-20261113.md`. This supersedes earlier not-installed status, not release status.

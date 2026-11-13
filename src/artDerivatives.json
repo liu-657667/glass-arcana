@@ -832,20 +832,20 @@
     }
   },
   "swords-1": {
-    "originalSha256": "3768b732d26ab498839af61649667f26e243fe17a2f334c342765ae626b506af",
-    "originalBytes": 3746188,
+    "originalSha256": "bc71d13ae479931da2cdbc1ef2fa1326ac743c37ac0d42338ca7b9703f969e0b",
+    "originalBytes": 3354339,
     "variants": {
       "320": {
-        "bytes": 83590,
-        "sha256": "c5fe77afa030522f30928086dc9cfcf3b0c1d63ae0a5f81884421043ef83dafb"
+        "bytes": 85508,
+        "sha256": "90c74b291c5eb0e30f8191fc2cb888f03d7e7b079f1e8bb2cb7a5b1662ed94f1"
       },
       "640": {
-        "bytes": 333440,
-        "sha256": "685774fb0338a2ce5a37a413e54dd0656567d5eb98fabc4b6925a51a39c07dc1"
+        "bytes": 334396,
+        "sha256": "59a3694b4fe36d1ad2ab6ba7b78068064bbe822265368f7eb8f5291efd76fb8b"
       },
       "1024": {
-        "bytes": 863232,
-        "sha256": "9621397dc789e2163da84e924bad2f330a8d1ee4d0ebc995d00c75ae51d1a5e8"
+        "bytes": 756622,
+        "sha256": "aed53e65f0134535f8ed6f4bd68167bbcb67b48897453bd4eea61e5c88c2fb1e"
       }
     }
   },
