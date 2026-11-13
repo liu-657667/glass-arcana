@@ -1,6 +1,6 @@
 # Replacement studies — NOT installed / 非安装候选
 
-This directory records proposed studies only. No replacement image file is present, no installed art or hash has changed, and no release is implied.
+This directory records non-installed studies. A newly generated Judgement candidate is now preserved in `judgement-v2/`; all installed art and hashes remain unchanged. No release is implied. Earlier persistence-blocked notes below describe the earlier, unsaved candidate, not this new file.
 
 ## Judgement / 审判
 
@@ -37,3 +37,7 @@ Before generating, inspect the original-resolution bird and actual early referen
 ## Follow-up reference comparison — 2026-11-13
 
 The two minor cards and actual historical reference pixels have now been inspected at original resolution. See `docs/audits/minor-two-symbols-20261113.md` for hashes, six-mark and branch-side findings, and the careful hood distinction. The earlier statements above describe the earlier pass only. No candidate image was persisted or installed in this follow-up.
+
+## New Judgement artifact imported — 2026-11-13
+
+A fresh generated candidate was delivered as a ZIP and extracted by the owner, then copied byte-for-byte into `judgement-v2/`. It is **not recovery of the earlier unsaved image**, and the earlier edit prompt is not claimed as this image's exact generation prompt. See [candidate inspection](judgement-v2/README.md). The application still uses the existing three-person image.
