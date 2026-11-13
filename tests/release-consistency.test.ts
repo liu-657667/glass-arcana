@@ -43,3 +43,12 @@ test('source candidate wording does not imply release or recovery',()=>{
  assert.match(status,/NOT recovery/);
  assert.match(status,/Existing per-card pending flags remain intact/);
 });
+
+
+test('targeted visual findings do not conflict with blanket unchecked claims',()=>{
+ for(const card of cards){const notes=auditFor(card.id)!.iconography.pendingChecks; assert(!notes.some(n=>n.en.includes('Early plates and final artwork remain unchecked')));}
+ const app=readFileSync('src/App.vue','utf8');
+ assert(!app.includes('all images remain pending'));
+ assert.match(app,/Comprehensive early-plate review: incomplete/);
+ assert.match(app,/图像全面审校|全面核验|全面对照/);
+});
