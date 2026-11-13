@@ -12,7 +12,8 @@
     "test:openai:offline": "node --test server/openaiProvider.test.mjs",
     "test:unit": "node --import tsx --test tests/*.test.ts",
     "check": "npm test && npm run build",
-    "build:web": "python3 scripts/prepare-web-assets.py && vue-tsc --noEmit && vite build --mode web-lite && node scripts/verify-third-party-notices.mjs dist-web && node scripts/verify-web-assets.mjs"
+    "build:web": "python3 scripts/prepare-web-assets.py && vue-tsc --noEmit && vite build --mode web-lite && node scripts/verify-third-party-notices.mjs dist-web && node scripts/verify-web-assets.mjs",
+    "test:browser": "node tests/browser.mjs"
   },
   "dependencies": {
     "vue": "^3.5.0"

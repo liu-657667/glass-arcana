@@ -19,6 +19,14 @@ npm run check
 
 Open the localhost URL printed by Vite. The optional mock runs at `127.0.0.1:8787`, never reads a key and is not AI. `npm test` includes all unit and server tests; `npm run build` typechecks and builds `dist/`. No website has been deployed. Static hosting alone does not provide a model backend.
 
+## 离线浏览器回归 / Offline browser regression
+
+`npm run test:browser` 使用 Playwright Chromium。若使用本机已安装 Chrome，可运行 `PLAYWRIGHT_CHANNEL=chrome npm run test:browser`；自选浏览器可设置 `PLAYWRIGHT_EXECUTABLE_PATH`。默认浏览器二进制须提前安装，脚本不会自动下载或安装浏览器。
+
+测试自行启动随机端口的 `127.0.0.1` Vite 服务和全新浏览器上下文，不读取个人浏览器资料；合成记录与截图仅写入被 Git 忽略的 `test-results/browser/`。非测试页面来源请求全部拒绝（包括本机模型服务），不调用真实 API。测试结束或断言失败后关闭测试浏览器和服务。覆盖翻牌、历史恢复、中英搜索、弹窗退出、禁用逆位、窄屏溢出、导出及清空取消/确认；不替代人工牌图终审或 Safari/Firefox/真实手机验收。
+
+The runner owns an ephemeral loopback server and a clean browser context. It blocks other network origins, never calls model services, and saves only synthetic artifacts under ignored `test-results/browser/`. It does not download browsers. Use an installed Playwright Chromium, `PLAYWRIGHT_CHANNEL=chrome`, or an explicit executable path. Automated assertions do not constitute final artwork or cross-browser approval.
+
 ## 功能与隐私 / Features & privacy
 
 - 78 张牌库、双语搜索、来源；单牌/三牌抽取，Web Crypto 无重复抽签，可禁用逆位。
