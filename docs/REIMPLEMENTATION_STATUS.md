@@ -25,3 +25,7 @@ Run `npm run check` and `npm run build:web` from this tree with Node 24.22.1. Re
 Current reimplementation result: 58/58 offline tests passed (36 application + 22 server). Typecheck, standard build, web-lite build and both complete-runtime-notice checks passed. Asset verifier confirmed 78 original hashes, 78 JPEG fallbacks, 234 unchanged WebP derivatives and the vector back. No original image or audit metadata was changed.
 
 Post-commit verification: source commit `585640247e97788542d8b5c58bb8c4a18c6fb9e2` was pushed to the independent `qa/reimplementation-20261113` branch and read back from the remote. Main remained `57b0b376b039e9f1e3a43d5c364b92589c868666`. GitHub Actions run listing for this branch returned no runs; do not claim remote CI passed. Built standard preview was checked in isolated Chrome: both Chinese and English home pages expose `STUDY TOOL · 0.1.0`, card back and form render normally. Only the added tab and preview were closed. No release/deployment or real API calls.
+
+## Later work, not recovery of the missing tree
+
+The sections above describe the original limited reimplementation checkpoint, not the latest QA artwork. Subsequent `qa/acceptance-followup-20261113` commits added fresh 22-Major/56-Minor first-pass comparisons and newly generated Ace of Swords v2 / Judgement v3, with retained backups and current manifests. These are new work, not recovery of the missing 16-file diff or the missing Nine of Pentacles revision. Current verification and boundaries: `FINAL_RELEASE_AUDIT_20261113.md`.
