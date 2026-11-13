@@ -1,3 +1,16 @@
+# Current QA overview — 2026-11-13
+
+This section supersedes counts/status below; older entries remain historical evidence, not new testing.
+
+- Baseline: committed `57b0b376b039e9f1e3a43d5c364b92589c868666`. The missing later 16-file candidate has NOT been recovered. See `REIMPLEMENTATION_STATUS.md`.
+- Baseline offline verification: 57 tests, TypeScript, production build and complete notices for six rendered runtime packages passed.
+- Isolated Chrome origin on port 5197: Chinese/English searches, uppercase matching, zero results, Cups filter (14), bilingual About, Wheel/Ace of Cups differences, three-card reveal with upright/reversed cards, finish and journal reopen passed. Reopening preserved card identities and orientations. Three displayed faces loaded at 220 x 330 after animation; no console errors observed.
+- No live API or credentials used. Only the QA tab and its preview process were closed. Original checkout remained unchanged. This pass does not certify all 78 visual details, Safari/mobile or full accessibility. Firefox excluded by owner.
+- Reproducible checks: `npm run check`; `npm run build:web` for independent web assets. Committed manifests: `src/artDerivatives.json`, `src/artReview.json`. Do not rely on an inaccessible external freeze file as release evidence.
+- Release scope remains source code for an adapted cultural-study/reflection tool, not a certified historical deck or hosted AI service. No release, push or deployment performed.
+
+## Historical QA record
+
 # Pre-release functional QA — 2026-11-12
 
 ## Result

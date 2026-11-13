@@ -26,3 +26,16 @@ test('card details expose source-specific pending checks without claiming exact 
  const app=readFileSync('src/App.vue','utf8');assert.match(app,/iconography.pendingChecks/);assert.match(app,/check\[auditLang\(locale\)\]/);assert.match(app,/not an exact reproduction/);assert.match(app,/不代表本项目牌面逐项复刻/);
  for(const card of cards){for(const item of auditFor(card.id)!.iconography.pendingChecks){assert(item.en.trim());assert(item['zh-CN'].trim());}}
 });
+
+
+test('source candidate wording does not imply release or recovery',()=>{
+ const app=readFileSync('src/App.vue','utf8');
+ const readme=readFileSync('README.md','utf8');
+ const status=readFileSync('docs/REIMPLEMENTATION_STATUS.md','utf8');
+ assert.match(app,/STUDY TOOL · 0.1.0/);
+ assert(!app.includes('EARLY STUDY BUILD'));
+ assert.match(readme,/v0.1.0 源码发布候选/);
+ assert.match(readme,/发行状态以仓库标签 \/ Release 为准/);
+ assert.match(status,/NOT recovery/);
+ assert.match(status,/Existing per-card pending flags remain intact/);
+});
