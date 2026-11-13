@@ -206,8 +206,8 @@
   },
   "cups-7": {
     "status": "adapted_candidate",
-    "noteZh": "核心构图首轮检查；仍为原创改编候选，细节与权利待核。",
-    "noteEn": "3 upper +4 lower=7; head,veiled figure,snake,castle,jewels,wreath,dragon Candidate, not final; detailed visual and rights review pending.",
+    "noteZh": "专项逐数：七杯及七类意象可辨；中央人物显露面容，非参考蒙覆形象，花环杯未呈现参考黑色头骨状细节。保留改编候选，未完成修图与最终审校。",
+    "noteEn": "Targeted count: seven cups and their seven motifs are readable. The central figure has a visible face rather than the reference covering; the wreath cup omits the reference dark skull-like detail. Adaptation candidate, not final artwork approval.",
     "sha256": "046a08adeca1db27b2701cd66b6b5b3c01b492fc94df7de77bea3504963b0d79",
     "installed": true
   },
@@ -576,8 +576,8 @@
   },
   "cups-8": {
     "status": "candidate",
-    "noteZh": "早期生成候选；此记录仅核验当前文件哈希，不代表新增视觉或权利审查。最终符号与构图审查待完成。",
-    "noteEn": "Early generated candidate. This record verifies the current file hash only, not a new visual or rights review. Final symbol and composition review remains pending.",
+    "noteZh": "专项逐数：八杯（下五上三，保留缺口）、持杖离去人物及山水可辨；天空为普通满月，非参考叠合月相符号。保留改编候选，非全细节核验通过。",
+    "noteEn": "Targeted count: eight cups (five below, three above with a gap), departing staff-bearing figure and landscape are readable. A plain full moon replaces the reference overlapping lunar motif. Adaptation candidate, not full-detail approval.",
     "sha256": "0666f0b01e08c948980c0bc69963d87ee1d1aa101493dfcb935dc21b1145ebb1",
     "installed": true
   }

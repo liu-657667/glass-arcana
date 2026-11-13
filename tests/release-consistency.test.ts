@@ -15,7 +15,11 @@ test('search finds every currently displayed bilingual theme, symbol and prompt'
 test('every candidate has honest review metadata matching the current original hash',()=>{
  assert.deepEqual(Object.keys(review).sort(),cards.map(c=>c.id).sort());
  for(const card of cards){const r=review[card.id as keyof typeof review];assert(r.noteZh&&r.noteEn);assert.equal(r.sha256,createHash('sha256').update(readFileSync(`public/art/${card.id}.png`)).digest('hex'));}
- for(const id of ['major-0','major-13','cups-8'] as const){assert.equal(review[id].status,'candidate');assert.match(review[id].noteEn,/not a new visual or rights review/);}
+ for(const id of ['major-0','major-13'] as const){assert.equal(review[id].status,'candidate');assert.match(review[id].noteEn,/not a new visual or rights review/);}
+ assert.equal(review['cups-8'].status,'candidate');
+ assert.match(review['cups-8'].noteEn,/Targeted count/);
+ assert.match(review['cups-8'].noteEn,/plain full moon/);
+ assert.match(review['cups-8'].noteEn,/not full-detail approval/);
 });
 test('About declares opt-in paid AI and current content license in both languages',()=>{
  const app=readFileSync('src/App.vue','utf8');assert(!app.includes('中文摘要 CC0'));assert(!app.includes('也没有付费 API'));assert(!app.includes('后续牌背必须'));

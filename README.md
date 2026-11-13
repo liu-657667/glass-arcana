@@ -50,6 +50,14 @@ Live Responses support exists but is disabled by default. Five authorized synthe
 
 消息统一最多 2000 个 UTF-16 单元；超过此长度的模型输出明确标注截短，页面显示与追问携带内容相同。不会悄悄丢弃牌阵或用户消息来凑预算。完整请求另受保守 UTF-8 体积上限约束；即使单条合法，多轮总量过大仍拒绝发送。
 
+## 项目贡献 / Project contributions
+
+本项目由 [liu-657667](https://github.com/liu-657667) 发起并持续指导，负责产品方向、需求取舍与发布决定。OpenAI 的 AI 工具参与了方案讨论、设计、代码开发、测试、文档及候选牌图生成；后续维护也有 Codex 参与。具体完成范围以提交记录和审校报告为准，AI 生成结果仍需核验，不意味着 OpenAI 官方背书，也不把所有工作归为单一工具完成。
+
+Initiated and directed by [liu-657667](https://github.com/liu-657667), who sets product direction, priorities and release decisions. OpenAI AI tools assisted with planning, design, implementation, testing, documentation and candidate artwork generation; Codex also participates in subsequent maintenance. Commit history and review reports define the actual scope. AI outputs require verification; this is not an OpenAI-endorsed project or a claim that one tool did all the work.
+
+贡献说明不是版权归属保证。许可仅涵盖实际持有的可授权权利；AI 牌图不保证独占或无侵权风险，详见下方许可与牌图说明。 / These credits do not establish copyright ownership. Licenses cover only rights actually held and licensable; generated artwork is not guaranteed exclusive or non-infringing. See the licensing and artwork notices below.
+
 ## 许可与致谢 / Licensing & acknowledgments
 
 代码现有 MIT 文件见 `LICENSE`。**原创文案和图标采用 CC BY 4.0，牌图权利单独说明**；完整许可随附 `licenses/CC-BY-4.0.txt`；`CONTENT-LICENSE.md` 保留既有 CC0 权利边界，`ARTWORK-NOTICE.md` 记录 78 张 AI 正面牌图及衍生图 CC BY 4.0（仅实际可授权权利），原创 SVG 牌背已另获确认，同样采用 CC BY 4.0，不将候选图自动归入文案许可。所有者重点是本项目合规使用，不要求禁止第三方商用；本项目免费无广告的产品定位不是禁止商业复用的许可限制。依赖/第三方资料各有许可，不宣称所有历史版本全球公版。
