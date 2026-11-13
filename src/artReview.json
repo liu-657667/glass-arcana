@@ -359,8 +359,8 @@
   },
   "swords-1": {
     "status": "adapted_candidate",
-    "noteZh": "核心构图首轮检查；仍为原创改编候选，细节与权利待核。",
-    "noteEn": "Original adaptation, not exact facsimile of every RWS secondary detail Candidate, not final; detailed visual and rights review pending.",
+    "noteZh": "专项参考对照：一剑、云手、冠和山峰可辨；缺六个金色 yod 状记号，枝条左右与参考相反（参考左橄榄、右棕榈）。保留为改编候选，未完成修图及最终审校。",
+    "noteEn": "Targeted reference comparison: one sword, cloud-hand, crown and mountains are readable. Six gold yod-like marks are absent; branch sides are reversed relative to the reference (olive left, palm right). Adaptation candidate; image correction and final review pending.",
     "sha256": "3768b732d26ab498839af61649667f26e243fe17a2f334c342765ae626b506af",
     "installed": true
   },
@@ -513,8 +513,8 @@
   },
   "pentacles-9": {
     "status": "adapted_candidate",
-    "noteZh": "核心构图首轮检查；仍为原创改编候选，细节与权利待核。",
-    "noteEn": "Core composition checked; detailed visual and rights review pending. Candidate, not final; detailed visual and rights review pending.",
+    "noteZh": "专项逐数：九枚星币（左六右三）、葡萄园、人物、鸟与蜗牛可辨。鸟已有红色鹰帽，但黑色圆形眼部区域使遮眼表现不明确；不能称鹰帽缺失。仍待局部改图与最终审校。",
+    "noteEn": "Targeted count: nine pentacles (six left, three right), vineyard, figure, bird and snail are readable. A red falconry hood is present; a dark circular eye-area detail makes eye coverage ambiguous. Do not describe the hood as absent. Local clarification and final review pending.",
     "sha256": "e1e67c4eb53da9b8f98c924468c7ca6765936b26e87e501187737aeacf3d5ccb",
     "installed": true
   },

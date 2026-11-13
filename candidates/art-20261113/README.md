@@ -33,3 +33,7 @@ Before generating, inspect the original-resolution bird and actual early referen
 3. Confirm reference edition, count and specific corrected symbol against pixels, not a prompt or prior worker claim.
 4. Independently inspect derivatives and record limitations and applicable rights.
 5. Only then consider installation, with matching manifests, regression tests, browser checks and explicit publication scope. No release is performed here.
+
+## Follow-up reference comparison — 2026-11-13
+
+The two minor cards and actual historical reference pixels have now been inspected at original resolution. See `docs/audits/minor-two-symbols-20261113.md` for hashes, six-mark and branch-side findings, and the careful hood distinction. The earlier statements above describe the earlier pass only. No candidate image was persisted or installed in this follow-up.
