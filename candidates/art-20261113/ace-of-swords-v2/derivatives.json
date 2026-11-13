@@ -1,0 +1,14 @@
+{
+  "sourceSha256": "bc71d13ae479931da2cdbc1ef2fa1326ac743c37ac0d42338ca7b9703f969e0b",
+  "command": "magick source.png -resize WIDTHx -quality 90 destination.webp",
+  "files": {
+    "ace-of-swords-320.webp": {
+      "sha256": "09d11db7f8b6bc90549172b8ee6176fc4952916f1d14d0b013fdb4ad84753768",
+      "bytes": 99034
+    },
+    "ace-of-swords-640.webp": {
+      "sha256": "3586fdf6145c2cffbb063aae27366982769e8e6da546f0d068cc94392d2dc578",
+      "bytes": 337732
+    }
+  }
+}

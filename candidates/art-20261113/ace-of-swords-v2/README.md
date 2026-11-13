@@ -24,3 +24,13 @@ Precise-object edit of the existing Ace of Swords. Preserve 2:3 portrait composi
 ## Remaining gates
 
 Inspect 320/640 derivatives and isolated browser presentation before production installation. Keep this candidate outside `public/`; no runtime manifests or production references changed. Follow `ARTWORK-NOTICE.md`: license grants cover only rights actually held and licensable; no exclusive AI-copyright or worldwide-clearance guarantee.
+
+## Follow-up validation on Mac
+
+The actual PNG was transferred through the supported Library helper in a git bundle (SHA-256 `027dad7db6aaac9fd3b98395b5eb963ab4358bcdac7eaba673b5fc357f4a0709`), verified by Git and imported after fast-forwarding the QA branch to its required base `d77c73f`. No concurrent commits were discarded.
+
+The original PNG was visually inspected again. New 320 × 480 and 640 × 960 WebP derivatives (ImageMagick, quality 90; hashes in `derivatives.json`) were loaded in a dedicated Mac Chrome preview. Both images reported complete=true and the correct natural/display dimensions; HTML and both assets returned HTTP 200. Actual screenshots at both display sizes show three separate gold yods per side, olive fruit/broad leaves on viewer-left and narrow palm leaflets on viewer-right. The six marks remain countable at 320px; the lowest marks sit close to the gold guard but remain separated by dark outlines. One sword, crown and cloud hand, mountains and Gothic border remain recognizable.
+
+This supersedes the earlier untested-derivative statement, not the limits on historical exactness or full microdetail review. The candidate is still outside production; no application integration, Safari or phone-viewport certification is claimed. The local preview server and dedicated tab were closed after validation.
+
+`npm run check` passed: 37 unit + 22 server tests, type check, production build and complete runtime-license checks. No API was used. Original `public/art/swords-1.png` and runtime manifests remain unchanged.

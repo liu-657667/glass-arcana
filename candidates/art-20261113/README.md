@@ -49,3 +49,7 @@ On 2026-11-13 the built-in image generator edited the actual installed `swords-1
 The tool returned an image/data result without a local output hint. No newly saved file was found in the selected Mac's default generated-images directory. No data-URI/base64 terminal import or alternate transfer workaround was attempted, given earlier review rejections. No API fallback was used. Do not infer a saved filename/hash from the displayed image.
 
 New edit specification: preserve the complete 2:3 gold border, single vertical sword, single cloud-emerging hand, single crown, mountains and glass texture; move olive branch to viewer-left and palm to viewer-right without mirroring the rest; add exactly six separate small golden yod-like curved flame marks in blue space alongside the blade above the hilt, three per side, not merged with leaves/crown/seams; no added swords/hands/crowns/faces/text. Original RWS-inspired adaptation, not a facsimile. Input was the installed `public/art/swords-1.png` (hash recorded in the two-card audit).
+
+## Saved Ace of Swords v2 now available
+
+A later fresh generation produced a real saved PNG and was transferred through Library as a verified Git bundle. See `ace-of-swords-v2/README.md` for provenance, hashes and completed 320/640 Chrome checks. This is not recovery of the earlier display-only output described above. No production image has been replaced.
